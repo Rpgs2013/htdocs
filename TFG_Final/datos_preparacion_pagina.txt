@@ -1,0 +1,5 @@
+Optimización de pagina web:
+- Tests Unitarios, en js: JEST, en JAVA...
+- Implementación de mejoras en el codigo, temporizadores de sesión, optimización y eliminación
+  de caracteres ASCI, normalización, factorización.
+- Test de Prueba de pagina web con Apache JMeter.

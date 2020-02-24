@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Regular";
+  src: url("open-sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Bold";
+	src: url("open-sans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: "SemiBold";
+	src: url("open-sans/OpenSans-Semibold.ttf");
+}
+
+@font-face {
+	font-family: "Heavy";
+	src: url("open-sans/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+	font-family: "Italic";
+	src: url("open-sans/OpenSans-Italic.ttf");
+}
+
+* { 
+		font-family: "Regular"
+}
+
+body {
+	background-color: #e9dcd1;
+	text-align: center;
+}
+
+#titulo {
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+.nombres {
+	padding: 3.2%;
+}
+
+.imputs {
+	margin-bottom: 1.5%;
+	margin-top: 0.6%;
+}
+
+#imagen{
+	margin-right: 1.1%;
+}
+
+#enviar {
+	margin-top: 1.5%;
+	margin-bottom: 25%;
+}
+

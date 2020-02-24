@@ -1,0 +1,58 @@
+<!-- Crear XML sobre caballeros del zodiaco,
+Atenea nos ha pedido realiar un fichero de inventario
+de los que todavía no han perecido bajo el yugo de Poseidón,
+Necesita el nombre, la edad, ciudad natal, nombre del zodiaco
+y el tipo de armadura.
+Para el tipo de armadura, necesitamos saber  además las veces
+que ha sido restaurada.
+
+a) Crear 5 caballeros
+b) Crear las siguientes consultas en XQuery:
+  1.- Devolver toda la información de todos los caballeros
+  2.- Devolver el nombre de todos los Caballeros
+  3.- Devolver el nombre de cada uno de ellos y su tipo de armadura
+  4.- Crear una tabla en HTML que contenga toda la información de los caballeros
+   -->
+
+<zodiaco>
+    <caballero>
+        <nombre>Paco</nombre>
+        <edad>21</edad>
+        <ciudad_n>Murcia</ciudad_n>
+        <nom_zodiaco>Piscis</nom_zodiaco>
+        <tipo_armadura>Piedra</tipo_armadura>
+        <restaurada>1</restaurada>
+    </caballero>
+    <caballero>
+        <nombre>Roberto</nombre>
+        <edad>22</edad>
+        <ciudad_n>Almería</ciudad_n>
+        <nom_zodiaco>Aries</nom_zodiaco>
+        <tipo_armadura>Hierro</tipo_armadura>
+        <restaurada>2</restaurada>
+    </caballero>
+    <caballero>
+        <nombre>Julian</nombre>
+        <edad>22</edad>
+        <ciudad_n>Alguazas</ciudad_n>
+        <nom_zodiaco>Cancer</nom_zodiaco>
+        <tipo_armadura>Oro</tipo_armadura>
+        <restaurada>3</restaurada>
+    </caballero>
+    <caballero>
+        <nombre>Juana</nombre>
+        <edad>23</edad>
+        <ciudad_n>Murcia</ciudad_n>
+        <nom_zodiaco>Leo</nom_zodiaco>
+        <tipo_armadura>Mercurio</tipo_armadura>
+        <restaurada>4</restaurada>
+    </caballero>
+    <caballero>
+        <nombre>María</nombre>
+        <edad>25</edad>
+        <ciudad_n>Mordor</ciudad_n>
+        <nom_zodiaco>Cancer</nom_zodiaco>
+        <tipo_armadura>Platino</tipo_armadura>
+        <restaurada>5</restaurada>
+    </caballero>
+</zodiaco>

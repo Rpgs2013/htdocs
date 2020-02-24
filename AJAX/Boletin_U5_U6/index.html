@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Boletin 5</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Task App</a>
+        <ul class="navbar-nav-auto ml-auto">
+            <form class="form-inline my-2 my-lg-0">
+                <input type="search" name="search" id="search" class="form-control mr-sm-2" placeholder="Search Your Task">
+                <input type="submit" value="Search" class="btn btn-success my-2 my-sm-0">
+            </form>
+        </ul>
+    </nav>
+
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-body">
+                        <form class="task-form">
+                            <div class="form-group">
+                                <label data-toggle="tooltip" data-placement="top" title="Introduzca su email">Introduce tú Email: </label>
+                                <input type="text" id='email' placeholder="Email..." class="form-control" required><br>
+
+                                <label data-toggle="tooltip" data-placement="top" title="Introduzca su contraseña">Introduce tú Contraseña: </label>
+                                <input type="password" id='pass' placeholder="Contraseña..." class="form-control" required><br>
+                                <div id="recuadro">
+                                    <small><strong><span id="red">Introduce una contraseña que contenga una mayuscula, números y que tenga al menos 8 caracteres.</span></strong></small>
+                                </div><br>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="textarea" id="textarea" cols="30" rows="10" class="form-control" placeholder="Task Description..." data-toggle="tooltip" data-placement="top" title="Introduzca sus datos"></textarea>
+                            </div>
+                            <select class="browser-default custom-select" data-toggle="tooltip" data-placement="top" title="Introduzca su pais de origen">
+                                <option value="España" required>España</option>
+                                <option value="Francia" required>Francia</option>
+                            </select><br><br>
+                            <div>
+                                <input type="radio" name="sex" id="man" value="" data-toggle="tooltip" data-placement="top" title="Seleccione su sexo" required><small>Hombre</small>
+                                <input type="radio" name="sex" id="woman" value="" data-toggle="tooltip" data-placement="top" title="Seleccione su sexo" required><small>Mujer</small>
+                                <input type="radio" name="sex" id="woman" value="" data-toggle="tooltip" data-placement="top" title="Seleccione su sexo" required><small>Otro</small><br><br>
+                                <input type="checkbox" name="" id="licence" value="" required data-toggle="tooltip" data-placement="top" title="Acepte el acuerdo de licencia"><small>Acepto el acuerdo de licencia</small>
+                            </div>
+                            <br>
+                            <input id='validate' type="submit" value="Validate" class="btn-primary btn-block  text-center">
+                            <input type="submit" value="Limpiar" href="#" class="btn-primary btn-block  text-center">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <table class="table table-bordered table-sm">
+                    <thead>
+                        <tr style="text-align: center;">
+                            <td>Id</td>
+                            <td>Name</td>
+                            <td>Description</td>
+                        </tr>
+                    </thead>
+                    <tbody id="task"></tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+            <strong><p style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id='result'></p></strong>
+            <strong><p style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id='result2'></p></strong>
+            <strong><p style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id='result4'></p></strong>
+        </body>
+    <script src="script.js"></script>
+    <script src="validate.js"></script>
+</html>

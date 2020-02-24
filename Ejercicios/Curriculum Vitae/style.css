@@ -1,0 +1,64 @@
+* {
+	text-align: center;
+	list-style: none;
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("open-sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Bold";
+	src: url("open-sans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: "SemiBold";
+	src: url("open-sans/OpenSans-Semibold.ttf");
+}
+
+@font-face {
+	font-family: "Heavy";
+	src: url("open-sans/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+	font-family: "Italic";
+	src: url("open-sans/OpenSans-Italic.ttf");
+}
+
+header {
+	margin-bottom: 0;
+}
+
+h1 {
+	color: #363535;
+	text-align: center;
+	font-family: "SemiBold";
+	font-size: 56px;
+}
+
+h2 {
+	background-color: #E6E2D5;
+	padding: 20px 20px;
+}
+
+article {
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+figure {
+	margin: 40px;
+	margin-bottom: 70px;
+	margin-top: 50px;
+}
+
+.jumbotron {
+	background-color: #C2BBA5;
+}
+
+#footer {
+	background-color: #C8C6C6;
+}

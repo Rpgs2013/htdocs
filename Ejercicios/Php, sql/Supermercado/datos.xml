@@ -1,0 +1,94 @@
+<supermercado>
+
+    <productos>
+        <producto>
+            <nombre_producto>Cola Cao</nombre_producto>
+            <emp>Cola Cao</emp>
+            <precio>2</precio>
+        </producto>
+
+        <producto>
+            <nombre_producto>Coca Cola</nombre_producto>
+            <emp>Coca Cola</emp>
+            <precio>2</precio>
+        </producto>
+
+        <producto>
+            <nombre_producto>Nesquik</nombre_producto>
+            <emp>Nestlé</emp>
+            <precio>1.75</precio>
+        </producto>
+
+        <producto>
+            <nombre_producto>Patatas Lays</nombre_producto>
+            <emp>Lays</emp>
+            <precio>2</precio>
+        </producto>
+
+        <producto>
+            <nombre_producto>Oreo</nombre_producto>
+            <emp>Oreo</emp>
+            <precio>1.50</precio>
+        </producto>
+
+        <producto>
+            <nombre_producto>Nutela</nombre_producto>
+            <emp>Grupo Ferrero</emp>
+            <precio>2</precio>
+        </producto>
+
+        <producto>
+            <nombre_producto>Danonino</nombre_producto>
+            <emp>Danone</emp>
+            <precio>2</precio>
+        </producto>
+
+        <producto>
+        <nombre_producto>Actimel</nombre_producto>
+            <emp>Danone</emp>
+            <precio>1.50</precio>
+        </producto> 
+
+        <producto>
+            <nombre_producto>Calipo</nombre_producto>
+            <emp>Frigo</emp>
+            <precio>3</precio>
+        </producto>
+ 
+        <producto>
+            <nombre_producto>Twister</nombre_producto>
+            <emp>Frigo</emp>
+            <precio>3</precio>
+        </producto>
+    </productos>
+
+    <ofertas>
+
+        <oferta>
+            <id>1</id>
+            <descuento>0.2</descuento>
+            <fecha_ini>2020-01-13</fecha_ini>
+            <fecha_fin>2020-02-13</fecha_fin>
+        </oferta>
+        <oferta>
+            <id>2</id>
+            <descuento>0.3</descuento>
+            <fecha_ini>2020-01-13</fecha_ini>
+            <fecha_fin>2020-02-15</fecha_fin>
+        </oferta>
+        <oferta>
+            <id>3</id>
+            <descuento>0.2</descuento>
+            <fecha_ini>2020-01-13</fecha_ini>
+            <fecha_fin>2020-02-20</fecha_fin>
+        </oferta>
+        <oferta>
+            <id>4</id>
+            <descuento>0.5</descuento>
+            <fecha_ini>2020-01-13</fecha_ini>
+            <fecha_fin>2020-02-26</fecha_fin>
+        </oferta>
+
+    </ofertas>
+
+</supermercado>

@@ -1,0 +1,191 @@
+html{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+
+
+body{
+
+
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.wrapper{
+
+    font-family: sans-serif;
+    width: 50%;
+    margin-top: 20% ;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+
+
+}
+
+.wrapper img{
+
+    box-shadow: 10px 10px;
+    border: 1px solid;
+    opacity: 0.8;
+
+
+}
+
+img {
+
+    display: flex;
+    width: 80%;
+    height: auto;
+
+}
+
+.content{
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;
+
+}
+
+.overlay{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 80%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(7, 7, 7, 0.9);
+
+}
+
+
+.wrapper:hover .overlay{
+
+    opacity: 1;
+
+
+}
+
+.wrapper2{
+
+    font-family: sans-serif;
+    width: 50%;
+    margin-top: 20% ;
+    left: 30%;
+    top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+
+.wrapper2 img{
+
+    box-shadow: 10px 10px;
+    border: 1px solid;
+    opacity: 0.8;
+
+
+}
+
+.wrapper2:hover .overlay{
+
+    opacity: 1;
+
+
+}
+
+
+.wrapper3{
+
+    font-family: sans-serif;
+    width: 50%;
+    margin-top: 45% ;
+    left: 30%;
+    top: 50%;
+    margin-left: 50%;
+    margin-bottom: 10%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+
+.wrapper3 img{
+
+    box-shadow: 10px 10px;
+    border: 1px solid;
+    opacity: 0.8;
+
+
+}
+
+.wrapper3:hover .overlay{
+
+    opacity: 1;
+
+
+}
+
+
+.wrapper4{
+
+    font-family: sans-serif;
+    width: 50%;
+    margin-top: 47% ;
+    left: 30%;
+    top: 50%;
+    margin-bottom: 10%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+
+.wrapper4 img{
+
+    box-shadow: 10px 10px;
+    border: 1px solid;
+    opacity: 0.8;
+
+
+}
+
+.wrapper4:hover .overlay{
+
+    opacity: 1;
+
+
+}
+
+
+.jumbotron{
+
+    margin-top: 20%;
+    margin-bottom: auto;
+}
+
+
+footer {
+  
+  text-align: center;
+  margin-top: 20%;
+}
+
+

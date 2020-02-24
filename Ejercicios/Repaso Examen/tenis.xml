@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<torneo>
+	<equipos>
+		<selecciones>
+			<pais id="1">
+				<nombre>
+					España
+				</nombre>
+				<continente>
+					Europa
+				</continente>
+				<latitud>
+					40.4636688
+				</latitud>
+				<numero_jugadores>
+					
+				</numero_jugadores>
+				<jugadores>
+					<jugador id="1">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="2">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="3">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+						<jugador id="4">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+				</jugadores>
+			</pais>
+			<pais id="2">
+				<nombre>
+					Francia
+				</nombre>
+				<continente>
+					Europa
+				</continente>
+				<latitud>
+					46.2276382
+				</latitud>
+				<numero_jugadores>
+					
+				</numero_jugadores>
+				<jugadores>
+					<jugador id="1">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="2">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="3">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+						<jugador id="4">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+				</jugadores>
+			</pais>
+			<pais id="3">
+				<nombre>
+					Alemania
+				</nombre>
+				<continente>
+					Europa
+				</continente>
+				<latitud>
+					N 51°0'0"
+				</latitud>
+				<numero_jugadores>
+					
+				</numero_jugadores>
+				<jugadores>
+					<jugador id="1">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="2">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="3">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+						<jugador id="4">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+				</jugadores>
+			</pais>
+			<pais id="4">
+				<nombre>
+					Belgica
+				</nombre>
+				<continente>
+					Europa
+				</continente>
+				<latitud>
+					N 50°49'59.88"
+				</latitud>
+				<numero_jugadores>
+					
+				</numero_jugadores>
+				<jugadores>
+					<jugador id="1">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="2">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="3">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+						<jugador id="4">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+				</jugadores>
+			</pais>
+			<pais id="5">
+				<nombre>
+					Reino Unido
+				</nombre>
+				<continente>
+					Europa
+				</continente>
+				<latitud>
+					N37°23'18.74"
+				</latitud>
+				<numero_jugadores>
+					
+				</numero_jugadores>
+				<jugadores>
+					<jugador id="1">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="2">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="3">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+						<jugador id="4">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+				</jugadores>
+			</pais>
+			<pais id="6">
+				<nombre>
+					Marruecos
+				</nombre>
+				<continente>
+					Africa
+				</continente>
+				<latitud>
+					N 32°0'0"
+				</latitud>
+				<numero_jugadores>4</numero_jugadores>
+				<jugadores>
+					<jugador id="1">
+						<nombre_jugador>Alah</nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="2">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+					<jugador id="3">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+						<jugador id="4">
+						<nombre_jugador></nombre_jugador>
+						<edad></edad>
+						<dni></dni>
+						<peso></peso>
+						<numero_vic></numero_vic>
+						<ranking_ATP></ranking_ATP>
+					</jugador>
+				</jugadores>
+			</pais>
+		</selecciones>
+	</equipos>
+</torneo>

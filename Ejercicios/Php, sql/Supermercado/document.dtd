@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE supermercado [
+
+<!ELEMENT supermercado (productos,ofertas)>
+<!ELEMENT productos (producto)+>
+<!ELEMENT ofertas (oferta)+>
+<!ELEMENT producto (nombre_producto,emp,precio)>
+<!ELEMENT oferta (id,descuento,fecha_ini,fecha_fin)>
+<!ELEMENT nombre_producto (#PCDATA)>
+<!ELEMENT emp (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
+<!ELEMENT fecha_ini (#PCDATA)>
+<!ELEMENT fecha_fin (#PCDATA)> 
+]>

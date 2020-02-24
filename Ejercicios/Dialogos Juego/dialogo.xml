@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+a) Realizar un XML con los dialogos de un solo personaje con el que estamos hablando de manera que tenga lo siguiente:
+Id de conversacion
+Nombre personaje
+Situacion (lugar donde nos encontramos con el personaje)
+Dialogo -> Lo que nos dirá el personaje en este dialogo
+Opciones -> Opciones que me dará a elegir despues de mostrarnos el diálogo anterior
+
+Realizar por lo menos 10 id de conversación con dos opciones para cada una y uno de los diálogos debe de ser el que finalice la conversación.
+
+b) Realizar una web PHP donde aparezca en el diálogo del personaje y en una lista desplegable las opciones de ése mismo diálogo. 
+Al seleccionar una opcion y presionar un botón, me deberá de de cambiar al siguiente dialogo con sus respectivas opciones.
+OJO!!!!! las opciones me deben de decir al diálogo al que debo ir!!!!!!-->
+
+<!DOCTYPE conversaciones
+[
+<!ELEMENT conversaciones (personaje)>
+<!ELEMENT personaje (conversacion+)>
+<!ELEMENT conversacion (dialogo, opciones?, situacion)>
+<!ELEMENT dialogo (#PCDATA)>
+<!ELEMENT opciones (opcion+)>
+<!ELEMENT situacion (#PCDATA)>
+<!ATTLIST conversacion id CDATA #REQUIRED>
+
+<!ELEMENT opcion (#PCDATA)>
+<!ATTLIST opcion direccion CDATA #IMPLIED>
+]>
+
+<conversaciones>
+	<personaje>
+		<conversacion id="1">
+			<dialogo><![CDATA[<br/>]]>Paco es normal.</dialogo>
+			<opciones>
+				<opcion>si</opcion>
+				<opcion>no</opcion>
+			</opciones>
+			<situacion>Mordor</situacion>
+		</conversacion>
+
+		<conversacion id="2">
+			<dialogo><![CDATA[<br/>]]></dialogo>
+				<opciones>
+					<opcion>si</opcion>
+					<opcion>no</opcion>
+				</opciones>
+			<situacion>Wisconsing</situacion>
+		</conversacion>
+
+		<conversacion id="3">
+			<dialogo><![CDATA[<br/>]]></dialogo>
+			<opciones>
+				<opcion>si</opcion>
+				<opcion>no</opcion>
+			</opciones>
+			<situacion>Wisconsing</situacion>
+		</conversacion>
+
+		<conversacion id="4">
+			<dialogo><![CDATA[<br/>]]></dialogo>
+			<opciones>
+				<opcion>si</opcion>
+				<opcion>no</opcion>
+			</opciones>
+			<situacion>Wisconsing</situacion>
+		</conversacion>
+
+		<conversacion id="5">
+			<dialogo><![CDATA[<br/>]]></dialogo>
+			<opciones>
+				<opcion>si</opcion>
+				<opcion>no</opcion>
+			</opciones>
+			<situacion>Wisconsing</situacion>
+		</conversacion>
+
+		<conversacion id="6">
+			<dialogo><![CDATA[<br/>]]></dialogo>
+			<opciones>
+				<opcion>si</opcion>
+				<opcion>no</opcion>
+			</opciones>
+			<situacion>Wisconsing</situacion>
+		</conversacion>
+
+		<conversacion id="7">
+			<dialogo><![CDATA[<br/>]]></dialogo>
+			<opciones>
+				<opcion>si</opcion>
+				<opcion>no</opcion>
+			</opciones>
+			<situacion>Wisconsing</situacion>
+		</conversacion>
+
+		<conversacion id="8">
+			<dialogo><![CDATA[<br/>]]></dialogo>
+			<opciones>
+				<opcion>si</opcion>
+				<opcion>no</opcion>
+			</opciones>
+			<situacion>Wisconsing</situacion>
+		</conversacion>
+
+		<conversacion id="9">
+			<dialogo><![CDATA[<br/>]]></dialogo>
+			<opciones>
+				<opcion>si</opcion>
+				<opcion>no</opcion>
+			</opciones>
+			<situacion>Wisconsing</situacion>
+		</conversacion>
+
+		<conversacion id="10">
+			<dialogo><![CDATA[<br/>]]></dialogo>
+			<opciones>
+				<opcion>si</opcion>
+				<opcion>no</opcion>
+			</opciones>
+			<situacion>Wisconsing</situacion>
+		</conversacion>
+	</personaje>
+</conversaciones>

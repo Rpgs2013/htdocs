@@ -1,0 +1,145 @@
+*, *::before, *::after{
+
+    box-sizing: border-box;
+
+}
+
+body{
+   
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("images/background_1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+.header-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .container{
+
+    display: flex;
+    max-width: 100%;
+    width: calc(100% - 100px);
+
+  
+  }
+  .container img{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .container p{
+
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+  }
+
+  .jumbotron{
+
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-bottom: auto;
+    margin-top: 5%;
+
+  }
+
+  .container2 form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #858383ab;
+    padding: 20px;
+  }
+
+  .container2 p{
+    padding-top: 15%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 2em;
+
+  }
+
+  .prueba {
+    
+  }
+
+  .form-text{
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  }
+
+  .form-btn{
+
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  }
+
+  .container3{
+  text-align: center;  
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #bbb1b1b9;
+  max-width: 100%;
+  width: calc(100% - 50%);
+  margin: 0 auto;
+  margin-top: 5%;
+  }
+
+  .rdj-image{
+
+    display: flex;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
+
+ #game_1{
+
+  margin-left: 5%;
+  max-width: 610px;
+  max-height: 343px;
+  width: auto;
+  height: auto;
+
+ }
+
+ .team{
+  
+  margin-top: 10%;
+  text-align: center;
+
+ }

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="animated/animate.css" onclick>
+</head>
+<body>
+
+  <div>
+   <!-- <style type="text/css">
+      #musica {height:0; width:0;}
+      </style>
+
+      <script type="text/javascript">
+      var sonido = 'Artoria-OST.mp3';
+
+      var audio ='<embed id="musica" src="'+sonido+'" autoplay="false" type="audio/mpeg" enablejavascript="true"></embed>';
+      document.write(audio);
+
+      function reproducirmusica() {
+      var tocando = document.getElementById('musica');
+      tocando.Play();
+      }
+      </script> -->
+  </div>
+
+	<div id="div_principal">
+
+	<header>
+		<h1 id="titulo" class="animated zoomIn">Formulario:</h1>
+	</header>
+
+	<div>
+		<h3>Introduce tus datos para realizar la reserva y obtener seis posters</h3>
+		<h3 id="exclusivo"><strong>¡EXCLUSIVOS!</strong></h3>
+	</div>
+
+		<div class="formulario">
+			<form action="sending.php" method="post" enctype="multipart/form-data">
+
+				<label class="nombres" for="name" id="nombre">Nombre:</label><br>
+				<input class="imputs" class="nombres" type="text" id="uno" name="nombre" placeholder="Nombre"><br>
+
+				<label class="nombres" for="ap" id="apellidos">Apellidos:</label><br> 
+				<input class="imputs" type="text" id="dos" name="ap" placeholder="Apellidos"><br>
+
+				<label class="nombres" for="name" id="correo">Correo Electrónico:</label><br>
+				<input class="imputs" type="text" id="tres" name="correo" placeholder="Correo electrónico"><br>
+
+				<a id="login" href="index.html"> <small>Volver al home</small></a><br>
+
+				<input type="submit" value="Enviar" id="enviar"><br>
+			</form>
+		</div>
+	</div>
+
+	<footer>
+		<!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half" id="prueba2">
+          <img src="images/Artorias_Album.jpg" class="img-fluid"
+            alt="" onclick="play_pause()">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Musica1 -->
+      <audio id="myAudio" src="music/Artoria-OST.mp3"></audio>
+      <script>
+      var currentsound;
+      function play_pause() {
+         var myAudio = document.getElementById("myAudio");
+         if(myAudio.paused) {
+             myAudio.play();
+             $( ".play-btn" );
+         } 
+
+         else {
+             myAudio.pause();
+             $( ".play-btn" );
+         }
+        }
+       </script>
+      <!-- Musica1/ -->
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="images/Sif Album.jpg" class="img-fluid"
+            alt="" onclick="play_pause2()">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Musica2 -->
+      <audio id="myAudio2" src="music/Sif-OST.mp3"></audio>
+      <script>
+      var currentsound;
+      function play_pause2() {
+         var myAudio = document.getElementById("myAudio2");
+         if(myAudio.paused) {
+             myAudio.play();
+             $( ".play-btn" );
+         } 
+
+         else {
+             myAudio.pause();
+             $( ".play-btn" );
+         }
+        }
+       </script>
+       <!-- Musica2/ -->
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="images/Iron Golem Album.jpg" class="img-fluid"
+            alt="" onclick="play_pause3()">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Musica3 -->
+      <audio id="myAudio3" src="music/Iron-Golem-OST.mp3"></audio>
+      <script>
+      var currentsound;
+      function play_pause3() {
+         var myAudio = document.getElementById("myAudio3");
+         if(myAudio.paused) {
+             myAudio.play();
+             $( ".play-btn" );
+         } 
+
+         else {
+             myAudio.pause();
+             $( ".play-btn" );
+         }
+        }
+       </script>
+       <!-- Musica3/ -->
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-12 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="images/Pray the Sun Album.jpg" class="img-fluid"
+            alt="" onclick="play_pause4()">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Musica4 -->
+      <audio id="myAudio4" src="music/Solaire-OST.mp3"></audio>
+      <script>
+      var currentsound;
+      function play_pause4() {
+         var myAudio = document.getElementById("myAudio4");
+         if(myAudio.paused) {
+             myAudio.play();
+             $( ".play-btn" );
+         } 
+
+         else {
+             myAudio.pause();
+             $( ".play-btn" );
+         }
+        }
+       </script>
+       <!-- Musica4/ -->
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="images/Sigmeyer of Catarina Album.jpg" class="img-fluid"
+            alt="" onclick="play_pause5()">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Musica5 -->
+      <audio id="myAudio5" src="music/Gwyndolin-OST.mp3"></audio>
+      <script>
+      var currentsound;
+      function play_pause5() {
+         var myAudio = document.getElementById("myAudio5");
+         if(myAudio.paused) {
+             myAudio.play();
+             $( ".play-btn" );
+         } 
+
+         else {
+             myAudio.pause();
+             $( ".play-btn" );
+         }
+        }
+       </script>
+       <!-- Musica5/ -->
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4">
+
+        <!--Image-->
+        <div class="view overlay z-depth-1-half">
+          <img src="images/Gwyn Lord of Cinder Album.jpg" class="img-fluid"
+            alt="" onclick="play_pause6()">
+          <a href="">
+            <div class="mask rgba-white-light"></div>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Musica6 -->
+      <audio id="myAudio6" src="music/Gwyn-OST.mp3"></audio>
+      <script>
+      var currentsound;
+      function play_pause6() {
+         var myAudio = document.getElementById("myAudio6");
+         if(myAudio.paused) {
+             myAudio.play();
+             $( ".play-btn" );
+         } 
+
+         else {
+             myAudio.pause();
+             $( ".play-btn" );
+         }
+        }
+       </script>
+       <!-- Musica6/ -->
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <footer class="footer-copyright text-center py-3">© 2018 Copyright:
+        <a href="terminos.html"> Raúl Gallego And Eduardo Gaspar Team.</a>
+  </footer>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+	</footer>
+	
+</body>
+</html>

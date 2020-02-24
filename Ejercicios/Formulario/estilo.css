@@ -1,0 +1,50 @@
+body {
+	background:-webkit-linear-gradient(left, #89f7fe 0%, #66a6ff 100%);
+	background:-o-linear-gradient(left, #89f7fe 0%, #66a6ff 100%);
+	background:linear-gradient(to right, #89f7fe 0%, #66a6ff 100%);
+	font-family: Arial;
+}
+
+h1 {
+	color: #000000;
+	border: 1px solid;
+ 	padding: 10px;
+  	box-shadow: 5px 10px;
+  	text-align: center;
+  	background:linear-gradient(90deg, #36d1dc 0%,#5b86e5 100% );
+}
+
+label {
+	margin: 15px;
+	text-align: left;
+}
+
+input {
+	margin: 15px;
+	align-items: center;
+}
+
+.myButton {
+	margin: 20px;
+	box-shadow: 2px 2px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #9fa4cf;
+	display:inline-block;
+	cursor:pointer;
+	color:#050505;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes"?>
+
+<copa_pique>
+
+    <pais>
+
+        <nombre_pais>España</nombre_pais>
+        <continente>Europa</continente>
+        <longitud>4354</longitud>
+        <latitud>13243</latitud>
+        <jugadores>
+        
+            <jugador>
+            
+                <nombre_jugador>Rafael Nadal</nombre_jugador>
+                <edad>34</edad>
+                <dni>13243546G</dni>
+                <peso>76 kg</peso>
+                <n_victorias>2435</n_victorias>
+                <ranking_atp>2</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Perico el de los palotes</nombre_jugador>
+                <edad>23</edad>
+                <dni>3245465U</dni>
+                <peso>63 kg</peso>
+                <n_victorias>12</n_victorias>
+                <ranking_atp>43587</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Antonio Lóepz</nombre_jugador>
+                <edad>21</edad>
+                <dni>324546435I</dni>
+                <peso>77 kg</peso>
+                <n_victorias>1234</n_victorias>
+                <ranking_atp>4567</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Anónimo</nombre_jugador>
+                <edad>41</edad>
+                <dni>213456T</dni>
+                <peso>67 kg</peso>
+                <n_victorias>9000</n_victorias>
+                <ranking_atp>1</ranking_atp>
+            
+            </jugador>
+
+        
+        
+        
+        </jugadores>
+
+    
+    </pais>
+
+
+
+    <pais>
+
+        <nombre_pais>Alemania</nombre_pais>
+        <continente>Europa</continente>
+        <longitud>2434</longitud>
+        <latitud>32453</latitud>
+        <jugadores>
+        
+            <jugador>
+            
+                <nombre_jugador>Jugador 1</nombre_jugador>
+                <edad>32</edad>
+                <dni>23243546Y</dni>
+                <peso>78 kg</peso>
+                <n_victorias>1123</n_victorias>
+                <ranking_atp>245</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 2</nombre_jugador>
+                <edad>25</edad>
+                <dni>323546H</dni>
+                <peso>67 kg</peso>
+                <n_victorias>132</n_victorias>
+                <ranking_atp>3008</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 3</nombre_jugador>
+                <edad>30</edad>
+                <dni>32435465R</dni>
+                <peso>70 kg</peso>
+                <n_victorias>322</n_victorias>
+                <ranking_atp>456</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 4</nombre_jugador>
+                <edad>32</edad>
+                <dni>324354657B</dni>
+                <peso>58 kg</peso>
+                <n_victorias>200</n_victorias>
+                <ranking_atp>4005</ranking_atp>
+            
+            </jugador>
+
+        
+        
+        
+        </jugadores>
+
+    
+    </pais>
+
+
+    <pais>
+
+        <nombre_pais>Francia</nombre_pais>
+        <continente>Europa</continente>
+        <longitud>32453</longitud>
+        <latitud>4253</latitud>
+        <jugadores>
+        
+            <jugador>
+            
+                <nombre_jugador>Jugador 1</nombre_jugador>
+                <edad>33</edad>
+                <dni>23243446Y</dni>
+                <peso>71 kg</peso>
+                <n_victorias>1120</n_victorias>
+                <ranking_atp>247</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 2</nombre_jugador>
+                <edad>28</edad>
+                <dni>343553F</dni>
+                <peso>55 kg</peso>
+                <n_victorias>2223</n_victorias>
+                <ranking_atp>14</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 3</nombre_jugador>
+                <edad>18</edad>
+                <dni>3243546N</dni>
+                <peso>66 kg</peso>
+                <n_victorias>109</n_victorias>
+                <ranking_atp>370</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 4</nombre_jugador>
+                <edad>20</edad>
+                <dni>324356D</dni>
+                <peso>61 kg</peso>
+                <n_victorias>348</n_victorias>
+                <ranking_atp>454</ranking_atp>
+            
+            </jugador>
+
+        
+        
+        
+        </jugadores>
+
+    
+    </pais>
+
+    <pais>
+
+        <nombre_pais>Inglaterra</nombre_pais>
+        <continente>Europa</continente>
+        <longitud>2142</longitud>
+        <latitud>134253</latitud>
+        <jugadores>
+        
+            <jugador>
+            
+                <nombre_jugador>Jugador 1</nombre_jugador>
+                <edad>24</edad>
+                <dni>3425346M</dni>
+                <peso>58 kg</peso>
+                <n_victorias>370</n_victorias>
+                <ranking_atp>2000</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 2</nombre_jugador>
+                <edad>30</edad>
+                <dni>3245646I</dni>
+                <peso>62 kg</peso>
+                <n_victorias>158</n_victorias>
+                <ranking_atp>3088</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 3</nombre_jugador>
+                <edad>25</edad>
+                <dni>132453U</dni>
+                <peso>75 kg</peso>
+                <n_victorias>234</n_victorias>
+                <ranking_atp>4789</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 4</nombre_jugador>
+                <edad>32</edad>
+                <dni>3243546A</dni>
+                <peso>58 kg</peso>
+                <n_victorias>586</n_victorias>
+                <ranking_atp>189</ranking_atp>
+            
+            </jugador>
+
+        
+        
+        
+        </jugadores>
+
+    
+    </pais>
+
+
+    <pais>
+
+        <nombre_pais>EEUU</nombre_pais>
+        <continente>América</continente>
+        <longitud>123453</longitud>
+        <latitud>1324536</latitud>
+        <jugadores>
+        
+            <jugador>
+            
+                <nombre_jugador>Jugador 1</nombre_jugador>
+                <edad>27</edad>
+                <dni>13245364V</dni>
+                <peso>67 kg</peso>
+                <n_victorias>465</n_victorias>
+                <ranking_atp>257</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 2</nombre_jugador>
+                <edad>22</edad>
+                <dni>324354C</dni>
+                <peso>60 kg</peso>
+                <n_victorias>378</n_victorias>
+                <ranking_atp>1035</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 3</nombre_jugador>
+                <edad>28</edad>
+                <dni>2324354J</dni>
+                <peso>70 kg</peso>
+                <n_victorias>466</n_victorias>
+                <ranking_atp>754</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 4</nombre_jugador>
+                <edad>23</edad>
+                <dni>1324354R</dni>
+                <peso>64 kg</peso>
+                <n_victorias>367</n_victorias>
+                <ranking_atp>976</ranking_atp>
+            
+            </jugador>
+
+        
+        
+        
+        </jugadores>
+
+    
+    </pais>
+
+    <pais>
+
+        <nombre_pais>China</nombre_pais>
+        <continente>Asia</continente>
+        <longitud>23425</longitud>
+        <latitud>245546</latitud>
+        <jugadores>
+        
+            <jugador>
+            
+                <nombre_jugador>Jugador 1</nombre_jugador>
+                <edad>24</edad>
+                <dni>3243546K</dni>
+                <peso>57 kg</peso>
+                <n_victorias>243</n_victorias>
+                <ranking_atp>2008</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 2</nombre_jugador>
+                <edad>27</edad>
+                <dni>243546J</dni>
+                <peso>58 kg</peso>
+                <n_victorias>324</n_victorias>
+                <ranking_atp>887</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 3</nombre_jugador>
+                <edad>21</edad>
+                <dni>3425346X</dni>
+                <peso>64 kg</peso>
+                <n_victorias>323</n_victorias>
+                <ranking_atp>890</ranking_atp>
+            
+            </jugador>
+
+             <jugador>
+            
+                <nombre_jugador>Jugador 4</nombre_jugador>
+                <edad>20</edad>
+                <dni>2134354E</dni>
+                <peso>70 kg</peso>
+                <n_victorias>564</n_victorias>
+                <ranking_atp>579</ranking_atp>
+            
+            </jugador>
+
+        
+        
+        
+        </jugadores>
+
+    
+    </pais>
+
+
+
+
+
+
+</copa_pique>

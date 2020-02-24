@@ -1,0 +1,28 @@
+* {
+	max-width: 100%;
+	width: calc(100% - 5%);
+	margin: 0 auto;
+}
+
+/*Scroll bar*/
+*::-webkit-scrollbar {
+    width: 9px;     /* Tamaño del scroll en vertical */
+    height: 9px;    /* Tamaño del scroll en horizontal */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del
+thumb */
+*::-webkit-scrollbar-thumb {
+    background: #D2D2D2;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+*::-webkit-scrollbar-thumb:hover {
+    background: #565656;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body {
+	background-image: url(D:\Xampp\htdocs\Proyecto Madrid Games Week\Img\background_1.jpg);
+}

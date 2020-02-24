@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Regular";
+  src: url("deathshead/deathshead3d.otf");
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/background_1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.header-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .home-nav {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  nav {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Regular";
+    text-decoration: none;
+  }
+
+  .container {
+    display: flex;
+    max-width: 100%;
+    width: calc(100% - 100px);
+  }
+
+ /*Scroll bar*/
+body::-webkit-scrollbar {
+    width: 9px;     /* Tamaño del scroll en vertical */
+    height: 9px;    /* Tamaño del scroll en horizontal */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del
+thumb */
+body::-webkit-scrollbar-thumb {
+    background: #D2D2D2;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #565656;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}

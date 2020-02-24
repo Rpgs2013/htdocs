@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes"?>
+<!DOCTYPE liga[
+
+<!ELEMENT liga (equipo+)>
+<!ELEMENT equipo (nombre_equipo, ciudad, seguidores, himno, fecha_creacion, jugadores)>
+<!ELEMENT nombre_equipo (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT seguidores (#PCDATA)>
+<!ELEMENT himno (#PCDATA)>
+<!ELEMENT fecha_creacion (#PCDATA)>
+
+<!ELEMENT jugadores (jugador+, suplentes)>
+<!ELEMENT jugador (nombre_jugador, apellidos, edad, dni, n_lesiones)>
+<!ELEMENT nombre_jugador (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT n_lesiones (#PCDATA)>
+
+<!ELEMENT suplentes (suplente+)>
+<!ELEMENT suplente (nombre_jugador, apellidos, edad, dni, n_lesiones)>
+
+]>
+
+<liga>
+
+    <equipo> <!--Equipo 1-->
+        <nombre_equipo>Betis</nombre_equipo>
+
+        <ciudad>Sevilla</ciudad>
+
+        <seguidores>32838768</seguidores>
+
+        <himno>https://www.youtube.com/watch?v=tJcA3eKi_XI</himno>
+
+        <fecha_creacion>No lo se Hulio</fecha_creacion>
+
+        <jugadores>
+            
+            <jugador>
+
+                <nombre_jugador>Joaquín</nombre_jugador>
+
+                <apellidos>Sánchez</apellidos>
+
+                <edad>34</edad>
+
+                <dni>129716471D</dni>
+
+                <n_lesiones>1</n_lesiones>
+            
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Paco</nombre_jugador>
+
+                <apellidos>López López</apellidos>
+
+                <edad>27</edad>
+
+                <dni>4378578378O</dni>
+
+                <n_lesiones>8</n_lesiones>
+
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Antonio</nombre_jugador>
+
+                <apellidos>Ramírez</apellidos>
+
+                <edad>22</edad>
+
+                <dni>253626T</dni>
+
+                <n_lesiones>0</n_lesiones>
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>José</nombre_jugador>
+
+                <apellidos>Álvarez</apellidos>
+
+                <edad>25</edad>
+
+                <dni>123645645G</dni>
+
+                <n_lesiones>3</n_lesiones>
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Fulgencio</nombre_jugador>
+
+                <apellidos>Apellido</apellidos>
+
+                <edad>17</edad>
+
+                <dni>573828247H</dni>
+
+                <n_lesiones>2</n_lesiones>
+            
+            </jugador>
+
+            <suplentes>
+            
+                <suplente>
+                
+                    <nombre_jugador>Joselito</nombre_jugador>
+
+                    <apellidos>Apellido</apellidos>
+
+                    <edad>23</edad>
+
+                    <dni>1742612678B</dni>
+
+                    <n_lesiones>1</n_lesiones>
+                
+                </suplente>
+
+                <suplente>
+                
+                    <nombre_jugador>Chupa</nombre_jugador>
+
+                    <apellidos>Banquillo</apellidos>
+
+                    <edad>23</edad>
+
+                    <dni>385732798Y</dni>
+
+                    <n_lesiones>9</n_lesiones>
+                
+                </suplente>
+            
+            </suplentes>
+            
+        </jugadores>
+    
+    
+    </equipo>
+
+    <equipo> <!--Equipo 2-->
+        <nombre_equipo>Málaga</nombre_equipo>
+
+        <ciudad>Málaga</ciudad>
+
+        <seguidores>17374268846</seguidores>
+
+        <himno>https://www.youtube.com/watch?v=8IKXsP6EIxY</himno>
+
+        <fecha_creacion>No lo sé</fecha_creacion>
+
+        <jugadores>
+            
+            <jugador>
+
+                <nombre_jugador>Castolo</nombre_jugador>
+
+                <apellidos>El del PES</apellidos>
+
+                <edad>28</edad>
+
+                <dni>38u8372748K</dni>
+
+                <n_lesiones>33</n_lesiones>
+            
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Persona</nombre_jugador>
+
+                <apellidos>Para nada Von aleatoria</apellidos>
+
+                <edad>40</edad>
+
+                <dni>3429875U</dni>
+
+                <n_lesiones>9999999</n_lesiones>
+
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Persona</nombre_jugador>
+
+                <apellidos>Para nada aleatoria</apellidos>
+
+                <edad>20</edad>
+
+                <dni>2478372I</dni>
+
+                <n_lesiones>7</n_lesiones>
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Persona</nombre_jugador>
+
+                <apellidos>Para nada aleatoria 2</apellidos>
+
+                <edad>21</edad>
+
+                <dni>32442742H</dni>
+
+                <n_lesiones>2</n_lesiones>
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Personita</nombre_jugador>
+
+                <apellidos>Random</apellidos>
+
+                <edad>28</edad>
+
+                <dni>13249758O</dni>
+
+                <n_lesiones>0</n_lesiones>
+            
+            </jugador>
+
+            <suplentes>
+            
+                <suplente>
+                
+                    <nombre_jugador>Suplente 1</nombre_jugador>
+
+                    <apellidos>No tiene</apellidos>
+
+                    <edad>29</edad>
+
+                    <dni>3248743L</dni>
+
+                    <n_lesiones>0</n_lesiones>
+                
+                </suplente>
+
+                <suplente>
+                
+                    <nombre_jugador>Juan</nombre_jugador>
+
+                    <apellidos>Apellido</apellidos>
+
+                    <edad>26</edad>
+
+                    <dni>321474178R</dni>
+
+                    <n_lesiones>9</n_lesiones>
+                
+                </suplente>
+            
+            </suplentes>
+            
+        </jugadores>
+    
+    
+    </equipo>
+
+
+    <equipo> <!--Equipo 3-->
+        <nombre_equipo>Equipo</nombre_equipo>
+
+        <ciudad>No lo sé</ciudad>
+
+        <seguidores>12493856</seguidores>
+
+        <himno>Enlace de youtube</himno>
+
+        <fecha_creacion>Hace mucho mucho tiempo en un país lejano</fecha_creacion>
+
+        <jugadores>
+            
+            <jugador>
+
+                <nombre_jugador>Te</nombre_jugador>
+
+                <apellidos>Apellido random</apellidos>
+
+                <edad>2873</edad>
+
+                <dni>3284294297427942G</dni>
+
+                <n_lesiones>7</n_lesiones>
+            
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Has</nombre_jugador>
+
+                <apellidos>Apellido para nada aleatorio</apellidos>
+
+                <edad>55</edad>
+
+                <dni>32849784J</dni>
+
+                <n_lesiones>8</n_lesiones>
+
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Pasado</nombre_jugador>
+
+                <apellidos>Que no futuro</apellidos>
+
+                <edad>39</edad>
+
+                <dni>123487F</dni>
+
+                <n_lesiones>2</n_lesiones>
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Paquito</nombre_jugador>
+
+                <apellidos>Apellido de paquito</apellidos>
+
+                <edad>19</edad>
+
+                <dni>17327848428742J</dni>
+
+                <n_lesiones>5</n_lesiones>
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Nombre</nombre_jugador>
+
+                <apellidos>Apellido</apellidos>
+
+                <edad>39</edad>
+
+                <dni>34278427842L</dni>
+
+                <n_lesiones>2</n_lesiones>
+            
+            </jugador>
+
+            <suplentes>
+            
+                <suplente>
+                
+                    <nombre_jugador>Nombre</nombre_jugador>
+
+                    <apellidos>Apellido</apellidos>
+
+                    <edad>22</edad>
+
+                    <dni>394784742U</dni>
+
+                    <n_lesiones>9</n_lesiones>
+                
+                </suplente>
+
+                <suplente>
+                
+                    <nombre_jugador>Nombre 4</nombre_jugador>
+
+                    <apellidos>Apellido random</apellidos>
+
+                    <edad>22</edad>
+
+                    <dni>1328728Y</dni>
+
+                    <n_lesiones>3</n_lesiones>
+                
+                </suplente>
+            
+            </suplentes>
+            
+        </jugadores>
+    
+    
+    </equipo>
+
+
+    <equipo> <!--Equipo 4-->
+        <nombre_equipo>nombre</nombre_equipo>
+
+        <ciudad>cudad</ciudad>
+
+        <seguidores>1253264576</seguidores>
+
+        <himno>Enlace</himno>
+
+        <fecha_creacion>No lo sé</fecha_creacion>
+
+        <jugadores>
+            
+            <jugador>
+
+                <nombre_jugador>Nombre aleatorio</nombre_jugador>
+
+                <apellidos>Apellido para nada aleatorio</apellidos>
+
+                <edad>83</edad>
+
+                <dni>1209438757</dni>
+
+                <n_lesiones>22</n_lesiones>
+            
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Orco del wow</nombre_jugador>
+
+                <apellidos>Del wow</apellidos>
+
+                <edad>200</edad>
+
+                <dni>132493984984P</dni>
+
+                <n_lesiones>0</n_lesiones>
+
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Chuck</nombre_jugador>
+
+                <apellidos>Norris</apellidos>
+
+                <edad>50</edad>
+
+                <dni>18249842984J</dni>
+
+                <n_lesiones>No se puede lesionar</n_lesiones>
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Chuck Jr</nombre_jugador>
+
+                <apellidos>Norris</apellidos>
+
+                <edad>1</edad>
+
+                <dni>2345987H</dni>
+
+                <n_lesiones>2</n_lesiones>
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Persona</nombre_jugador>
+
+                <apellidos>Apellido de Persona</apellidos>
+
+                <edad>18</edad>
+
+                <dni>21343565B</dni>
+
+                <n_lesiones>8</n_lesiones>
+            
+            </jugador>
+
+            <suplentes>
+            
+                <suplente>
+                
+                    <nombre_jugador>Suplente 1</nombre_jugador>
+
+                    <apellidos>Apellido</apellidos>
+
+                    <edad>20</edad>
+
+                    <dni>1324385J</dni>
+
+                    <n_lesiones>2</n_lesiones>
+                
+                </suplente>
+
+                <suplente>
+                
+                    <nombre_jugador>Suplente 2</nombre_jugador>
+
+                    <apellidos>Apellido</apellidos>
+
+                    <edad>20</edad>
+
+                    <dni>3248498I</dni>
+
+                    <n_lesiones>7</n_lesiones>
+                
+                </suplente>
+            
+            </suplentes>
+            
+        </jugadores>
+    
+    
+    </equipo>
+
+
+
+
+    <equipo> <!--Equipo 5-->
+        <nombre_equipo>Equipo 5</nombre_equipo>
+
+        <ciudad>Ciudad 5</ciudad>
+
+        <seguidores>3128247842787842</seguidores>
+
+        <himno>Enlace</himno>
+
+        <fecha_creacion>fecha</fecha_creacion>
+
+        <jugadores>
+            
+            <jugador>
+
+                <nombre_jugador>Nombre 1</nombre_jugador>
+
+                <apellidos>Ap1</apellidos>
+
+                <edad>23</edad>
+
+                <dni>324842798H</dni>
+
+                <n_lesiones>3</n_lesiones>
+            
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Nombre 2</nombre_jugador>
+
+                <apellidos>Apellido</apellidos>
+
+                <edad>28</edad>
+
+                <dni>328429842R</dni>
+
+                <n_lesiones>8</n_lesiones>
+
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Nombre 3</nombre_jugador>
+
+                <apellidos>Apellido</apellidos>
+
+                <edad>38</edad>
+
+                <dni>13824827492E</dni>
+
+                <n_lesiones>4</n_lesiones>
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Nombre 4</nombre_jugador>
+
+                <apellidos>Apeliido</apellidos>
+
+                <edad>23</edad>
+
+                <dni>73487842742U</dni>
+
+                <n_lesiones>4</n_lesiones>
+            
+            </jugador>
+
+            <jugador>
+            
+                <nombre_jugador>Nombre 5</nombre_jugador>
+
+                <apellidos>Apellido</apellidos>
+
+                <edad>66</edad>
+
+                <dni>1324247842Y</dni>
+
+                <n_lesiones>3</n_lesiones>
+            
+            </jugador>
+
+            <suplentes>
+            
+                <suplente>
+                
+                    <nombre_jugador>Suplente1</nombre_jugador>
+
+                    <apellidos>Apellido</apellidos>
+
+                    <edad>38</edad>
+
+                    <dni>132892498492F</dni>
+
+                    <n_lesiones>6</n_lesiones>
+                
+                </suplente>
+
+                <suplente>
+                
+                    <nombre_jugador>Suplente 2</nombre_jugador>
+
+                    <apellidos>Apellidos</apellidos>
+
+                    <edad>29</edad>
+
+                    <dni>329832982982X</dni>
+
+                    <n_lesiones>3</n_lesiones>
+                
+                </suplente>
+            
+            </suplentes>
+            
+        </jugadores>
+    
+    
+    </equipo>
+
+</liga>

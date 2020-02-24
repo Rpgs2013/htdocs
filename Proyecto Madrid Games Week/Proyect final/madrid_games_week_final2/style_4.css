@@ -1,0 +1,13 @@
+a:hover{
+
+    text-decoration: none;
+    color: rgb(161, 14, 14);
+
+}
+
+.video-wrapper iframe{
+
+    display: block;
+    margin: 0 auto;
+
+}

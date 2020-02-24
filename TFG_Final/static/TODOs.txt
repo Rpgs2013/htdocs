@@ -1,0 +1,38 @@
+TODOs
+
+- Creating products and configuration site functionality for fully functional e-comerce site:
+1.- Creating features.
+2.- Insert products.
+3.- configuring products functionality.
+
+- Creating database:
+1.- Create database.
+2.- Create tables.
+3.- Linking products with Database.
+
+
+
+
+
+
+
+1.- Navbar:
+    - Promociones
+    - Juegos de Casino
+ // - Slots y Botes 
+    - Blog
+    - Politicas
+
+    - Soporte
+    - Buscador
+    - Inicio de sesión y Registro
+
+2.- Portfolio item grid:
+    - Files
+    - Folders
+    - Descriptions
+    - Animations
+
+3.- About Page:
+
+

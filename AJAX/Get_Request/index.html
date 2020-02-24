@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <title>AJAX-simple</title>
+</head>
+<body>
+    <label>Hi I'm using Boostrap</label> <br>
+    <input type="button" value="Hello World" onclick="sendRequest()">
+
+    <h1 id="title"></h1>
+
+    <script>
+        function sendRequest() {
+           var theObject = new XMLHttpRequest();
+           theObject.open('GET', 'function.php', true);
+           theObject.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+           theObject.onreadystatechange = function() {
+               document.getElementById('title').innerHTML = theObject.responseText;
+           }
+           theObject.send();
+        }
+    </script>
+</body>
+</html>

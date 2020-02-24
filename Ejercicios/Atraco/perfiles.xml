@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML
+  - Perfil perosnal
+  - Perfil familiar (2)
+  - Perfil detectivo (2) -->
+
+<perfiles>
+    <personaje>
+        <perfil_personal>
+            <id_personal>1</id_personal>
+            <nombre_completo>Alvaro Morte</nombre_completo>
+            <papel>El Profesor</papel>
+            <operacion>cerebro</operacion>
+        </perfil_personal>
+        <perfil_familiar>
+            <id_familiar>1</id_familiar>
+            <nombre>Profesor</nombre>
+            <familiar>Raquel</familiar>
+            <parentesco>pareja</parentesco>
+        </perfil_familiar>
+        <perfil_delictivo>
+            <id_delictivo>1</id_delictivo>
+            <delito>delito de sangre</delito>
+            <condena>...</condena>
+        </perfil_delictivo>
+    </personaje>
+
+    <personaje>
+        <perfil_personal>
+            <id_personal>2</id_personal>
+            <nombre_completo>Miguel Herran</nombre_completo>
+            <papel>Río</papel>
+            <operacion>maestro technologico</operacion>
+        </perfil_personal>
+        <perfil_familiar>
+            <id_familiar>2</id_familiar>
+            <nombre>Río</nombre>
+            <familiar>El Profesor</familiar>
+            <parentesco>salvador</parentesco>
+        </perfil_familiar>
+        <perfil_delictivo>
+            <id_delictivo>2</id_delictivo>
+            <delito>delito de sangre 2</delito>
+            <condena>...</condena>
+        </perfil_delictivo>
+    </personaje>
+
+
+    <personaje>
+        <perfil_personal>
+            <id_personal>3</id_personal>
+            <nombre_completo>Ursúla Corberó</nombre_completo>
+            <papel>Tokio</papel>
+            <operacion>atracadora</operacion>
+        </perfil_personal>
+        <perfil_familiar>
+            <id_familiar>3</id_familiar>
+            <nombre>Tokio</nombre>
+            <familiar></familiar>
+            <parentesco></parentesco>
+        </perfil_familiar>
+        <perfil_delictivo>
+            <id_delictivo>3</id_delictivo>
+            <delito>delito de sangre 3</delito>
+            <condena>...</condena>
+        </perfil_delictivo>
+    </personaje>
+
+
+    <personaje>
+        <perfil_personal>
+            <id_personal>4</id_personal>
+            <nombre_completo>Paco Tous</nombre_completo>
+            <papel>Moscú</papel>
+            <operacion>agujerea cajas acorazadas</operacion>
+        </perfil_personal>
+        <perfil_familiar>
+            <id_familiar>4</id_familiar>
+            <nombre>Moscú</nombre>
+            <familiar>Raquel</familiar>
+            <parentesco>pareja</parentesco>
+        </perfil_familiar>
+        <perfil_delictivo>
+            <id_delictivo>4</id_delictivo>
+            <delito>delito de sangre 4</delito>
+            <condena>...</condena>
+        </perfil_delictivo>
+    </personaje>
+
+
+    <personaje>
+        <perfil_personal>
+            <id_personal>5</id_personal>
+            <nombre_completo>Pedro Alonso</nombre_completo>
+            <papel>Berlín</papel>
+            <operacion>ladron de guante blanco</operacion>
+        </perfil_personal>
+        <perfil_familiar>
+            <id_familiar>5</id_familiar>
+            <nombre>Berlín</nombre>
+            <familiar>Raquel</familiar>
+            <parentesco>pareja</parentesco>
+        </perfil_familiar>
+        <perfil_delictivo>
+            <id_delictivo>5</id_delictivo>
+            <delito>delito de sangre 5</delito>
+            <condena>...</condena>
+        </perfil_delictivo>
+    </personaje>
+
+
+    <personaje>
+        <perfil_personal>
+            <id_personal>6</id_personal>
+            <nombre_completo>Jaime Loernte</nombre_completo>
+            <papel>Denver</papel>
+            <operacion>macarra de extrarradio</operacion>
+        </perfil_personal>
+        <perfil_familiar>
+            <id_familiar>6</id_familiar>
+            <nombre>Denver</nombre>
+            <familiar>Raquel</familiar>
+            <parentesco>pareja</parentesco>
+        </perfil_familiar>
+        <perfil_delictivo>
+            <id_delictivo>6</id_delictivo>
+            <delito>delito de sangre 6</delito>
+            <condena>...</condena>
+        </perfil_delictivo>
+    </personaje>
+
+
+    <personaje>
+        <perfil_personal>
+            <id_personal>7</id_personal>
+            <nombre_completo>Alba Flores</nombre_completo>
+            <papel>Nairobi</papel>
+            <operacion>falsificadora</operacion>
+        </perfil_personal>
+        <perfil_familiar>
+            <id_familiar>7</id_familiar>
+            <nombre>Nairobi</nombre>
+            <familiar>Raquel</familiar>
+            <parentesco>pareja</parentesco>
+        </perfil_familiar>
+        <perfil_delictivo>
+            <id_delictivo>7</id_delictivo>
+            <delito>delito de sangre 7</delito>
+            <condena>...</condena>
+        </perfil_delictivo>
+    </personaje>
+
+
+    <personaje>
+        <perfil_personal>
+            <id_personal>8</id_personal>
+            <nombre_completo>Darko Peric</nombre_completo>
+            <papel>Helsinki</papel>
+            <operacion>soldado de choque</operacion>
+        </perfil_personal>
+        <perfil_familiar>
+            <id_familiar>8</id_familiar>
+            <nombre>Helsinki</nombre>
+            <familiar>Oslo</familiar>
+            <parentesco>amigo</parentesco>
+        </perfil_familiar>
+        <perfil_delictivo>
+            <id_delictivo>8</id_delictivo>
+            <delito>delito de sangre 8</delito>
+            <condena>...</condena>
+        </perfil_delictivo>
+    </personaje>
+
+
+    <personaje>
+        <perfil_personal>
+            <id_personal>9</id_personal>
+            <nombre_completo>Roberto García</nombre_completo>
+            <papel>Oslo</papel>
+            <operacion>soldado de choque</operacion>
+        </perfil_personal>
+        <perfil_familiar>
+            <id_familiar>9</id_familiar>
+            <nombre>Oslo</nombre>
+            <familiar>Helsinki</familiar>
+            <parentesco>amigo</parentesco>
+        </perfil_familiar>
+        <perfil_delictivo>
+            <id_delictivo>9</id_delictivo>
+            <delito>delito de sangre 9</delito>
+            <condena>...</condena>
+        </perfil_delictivo>
+    </personaje>
+</perfiles>

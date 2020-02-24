@@ -1,0 +1,23 @@
+<!DOCTYPE torneo
+[
+<!ELEMENT torneo (equipos)>
+<!ELEMENT equipos (selecciones+)>
+<!ELEMENT selecciones (pais+)>
+<!ELEMENT pais (nombre, continente, latitud, numero_jugadores, jugadores+)>
+<!ATTLIST pais id CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT continente (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT numero_jugadores (#PCDATA)>
+<!ELEMENT jugadores (jugador+)>
+<!ELEMENT jugador (nombre_jugador, edad, dni, peso, numero_vic, ranking_ATP)>
+<!ATTLIST jugador id CDATA #REQUIRED>
+
+<!ELEMENT nombre_jugador (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT numero_vic (#PCDATA)>
+<!ELEMENT ranking_ATP (#PCDATA)>
+]>

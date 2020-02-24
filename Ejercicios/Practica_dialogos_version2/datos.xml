@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes"?>
+<!DOCTYPE conversaciones[
+
+<!ELEMENT conversaciones (conversacion+)>
+<!ELEMENT conversacion (situacion, personaje, dialogo, opciones?)>
+<!ELEMENT situacion (#PCDATA)>
+<!ELEMENT personaje (#PCDATA)>
+<!ELEMENT dialogo (#PCDATA)>
+<!ATTLIST conversacion id CDATA #REQUIRED>
+
+<!ELEMENT opciones (opcion+)>
+<!ELEMENT opcion (#PCDATA)>
+<!ATTLIST opcion direccion CDATA #IMPLIED>
+
+
+
+]>
+
+<conversaciones>
+
+    
+        
+            <conversacion id = "1">
+                
+                <situacion>Establo</situacion>
+                <personaje>Geralt de Rivia</personaje>
+                <dialogo><![CDATA[<br/>]]>Te gusta el lol</dialogo>
+                <opciones>
+                
+                    <opcion direccion = "2">Sí.</opcion>
+                    <opcion direccion = "3">No.</opcion>
+                    <opcion direccion = "4">Huir a la plaza.</opcion>
+                
+                </opciones>
+                
+            </conversacion>
+
+
+            <conversacion id = "2">
+
+                <situacion>Establo</situacion>
+                <personaje>Geralt de Rivia</personaje>
+                <dialogo><![CDATA[<br/>]]>Estas muerto</dialogo>
+                <opciones>
+
+                    <opcion>Nooo (Fin).</opcion>
+                    <opcion>Venga vale (Fin).</opcion>
+
+                </opciones>
+
+            </conversacion>
+
+
+            <conversacion id = "3">
+
+                <situacion>Establo</situacion>
+                <personaje>Geralt de Rivia</personaje>
+                <dialogo><![CDATA[<br/>]]>Menos mal (Fin)</dialogo>
+                
+
+            </conversacion>
+        
+            <conversacion id="4">
+
+                <situacion>Plaza</situacion>
+                <personaje>Santiago Abascal</personaje>
+                <dialogo><![CDATA[<br/>]]>Buenos días, mi compatriota Español. ¿Qué sucede?</dialogo>
+                <opciones>
+                    <opcion direccion = "6">Busco asilo político.</opcion>
+                    <opcion direccion = "5">Que me gusta el lol.</opcion>
+                </opciones>
+            </conversacion>
+
+
+            <conversacion id="5">
+
+                <situacion>Plaza</situacion>
+                <personaje>Santiago Abascal</personaje>
+                <dialogo><![CDATA[<br/>]]>¡Muere, hereje! (Fin).</dialogo>
+
+            </conversacion>
+
+            <conversacion id="6">
+
+                <situacion>Plaza</situacion>
+                <personaje>Santiago Abascal</personaje>
+                <dialogo><![CDATA[<br/>]]>Por supuesto, siempre y cuando en tu DNI ponga "España".</dialogo>
+                <opciones>
+                    <opcion direccion="8">Me lo he dejado en casa, pero mira esta banderita de España.</opcion>
+                    <opcion direccion="7">Me lo he dejado en casa</opcion>
+                </opciones>
+            </conversacion>
+
+            <conversacion id="7">
+
+                <situacion>Plaza</situacion>
+                <personaje>Santiago Abascal</personaje>
+                <dialogo><![CDATA[<br/>]]>Pues ahí te quedas friki (Fin).</dialogo>
+                
+            </conversacion>
+
+
+            <conversacion id="8">
+
+                <situacion>Plaza</situacion>
+                <personaje>Santiago Abascal</personaje>
+                <dialogo><![CDATA[<br/>]]>Oh dios, cuanto patriotismo rezuman tus ojos. Sígueme.</dialogo>
+                <opciones>
+                
+                    <opcion direccion="9">Seguir</opcion>
+
+                </opciones>
+                
+            </conversacion>
+
+            <conversacion id="9">
+
+                <situacion>Ruta 1</situacion>
+                <personaje>Santiago Abascal</personaje>
+                <dialogo><![CDATA[<br/>]]>¿Qué ha sido ese ruido?</dialogo>
+                <opciones>
+                
+                    <opcion direccion="10">¿Qué ruido?</opcion>
+
+                </opciones>
+                
+            </conversacion>
+
+             <conversacion id="10">
+
+                <situacion>Ruta 1</situacion>
+                <personaje>Raúl</personaje>
+                <dialogo><![CDATA[<br/>]]>*Con el PC en la mano* Oye perdonad, vosotros podés mirarme esto que estoy <![CDATA[<br/>]]>
+                metiéndole padding al CSS este y no va me da error.</dialogo>
+                <opciones>
+                
+                    <opcion direccion="11">Observar la situación.</opcion>
+                    <opcion direccion="12">Huye es una trampa.</opcion>
+
+                </opciones>
+                
+            </conversacion>
+
+            <conversacion id="11">
+
+                <situacion>Ruta 1</situacion>
+                <personaje>Narrador</personaje>
+                <dialogo><![CDATA[<br/>]]>Ante tamaño error, tanto Abascal y tú morís en el intento (Fin).</dialogo>
+                
+            </conversacion>
+
+            <conversacion id="12">
+
+                <situacion>Ruta 1</situacion>
+                <personaje>Narrador</personaje>
+                <dialogo><![CDATA[<br/>]]>Nuestro héroe consigue evadir la maléfica trampa que se presentaba en la Ruta 1.<![CDATA[<br/>]]>
+                Abascal es consumido por el error fatal de Raúl, y el partido político VOX cae en manos de gente que usa iOS.</dialogo>
+                <opciones>
+                
+                    <opcion direccion = "13">Continuar.</opcion>
+                
+                </opciones>
+            </conversacion>
+
+            <conversacion id="13">
+
+                <situacion>Huerta de Murcia</situacion>
+                <personaje>Eredin, el Gavilán</personaje>
+                <dialogo><![CDATA[<br/>]]>Hola majo, 'tas perdío o qué.<![CDATA[<br/>]]>¿Qué haces en medio de la huerta?</dialogo>
+                <opciones>
+                
+                    <opcion direccion = "15">A Raúl le ha dado error.</opcion>
+                    <opcion direccion = "14">Y tú quien eres, payaso.</opcion>
+                </opciones>
+            </conversacion>
+
+            <conversacion id="14">
+
+                <situacion>Huerta de Murcia</situacion>
+                <personaje>Narrador</personaje>
+                <dialogo><![CDATA[<br/>]]>Eredin te asesina en menos de que lo que tardas en reaccionar (Fin).</dialogo>
+                
+            </conversacion>
+
+            <conversacion id="15">
+
+                <situacion>Huerta de Murcia</situacion>
+                <personaje>Eredin, el Gavilán</personaje>
+                <dialogo><![CDATA[<br/>]]>Joer macho, ¿otra vez le ha dado error?<![CDATA[<br/>]]>
+                Si es que le he dicho 30 veces ya que se deje las fuentes esas raras que usa.</dialogo>
+                <opciones>
+                
+                    <opcion direccion = "17">*Pedir que te lleve a casa*</opcion>
+                    <opcion direccion = "16">Vaya cara muerto que me llevas.</opcion>
+                </opciones>
+            </conversacion>
+
+            <conversacion id="16">
+
+                <situacion>Huerta de Murcia</situacion>
+                <personaje>Narrador:</personaje>
+                <dialogo><![CDATA[<br/>]]>Eredin se marcha llorando, te quedas su Mercedes pero te estrellas y te mueres (Fin).</dialogo>
+                
+            </conversacion>
+
+            <conversacion id="17">
+
+                <situacion>Huerta de Murcia</situacion>
+                <personaje>Eredin, el Gavilán</personaje>
+                <dialogo><![CDATA[<br/>]]>Venga vale pero quítate los zapatos antes de montarte que me manchas el Mercedes.</dialogo>
+                <opciones>
+                
+                    <opcion direccion = "18">*Montarse en el Mercedes de Eredin*</opcion>
+                   
+                </opciones>
+            </conversacion>
+
+
+            <conversacion id="18">
+
+                <situacion>Tu casa</situacion>
+                <personaje>Narrador</personaje>
+                <dialogo><![CDATA[<br/>]]>Después de vivir unos grandes 4 minutos de aventuras, nuestro héroe vuelve sano y salvo a casa para seguir <![CDATA[<br/>]]>
+                jugando con Terry Bogard en el Smash. (Has ganado bieeeeeeeen!!!!!)</dialogo>
+                
+            </conversacion>
+
+</conversaciones>

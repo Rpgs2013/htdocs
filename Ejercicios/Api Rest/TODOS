@@ -1,0 +1,16 @@
+API REST -> SLIM -> PHP nativo:
+    
+    1.- Composer
+
+    2.- Crear project
+        |-> public
+            |-> index.PHP
+            |-> .htacces
+
+    3.- Activar service
+
+//Ejercicio
+Supermercado:
+    -Productos
+        |-> getAllProducts -> GET
+        |-> getProducts/id -> GET

@@ -1,0 +1,86 @@
+{
+  "supermercado": {
+    "productos": {
+      "producto": [
+        {
+          "nombre_producto": "Cola Cao",
+          "emp": "Cola Cao",
+          "precio": "2"
+        },
+        {
+          "nombre_producto": "Coca Cola",
+          "emp": "Coca Cola",
+          "precio": "2"
+        },
+        {
+          "nombre_producto": "Nesquik",
+          "emp": "Nestlé",
+          "precio": "1.75"
+        },
+        {
+          "nombre_producto": "Patatas Lays",
+          "emp": "Lays",
+          "precio": "2"
+        },
+        {
+          "nombre_producto": "Oreo",
+          "emp": "Oreo",
+          "precio": "1.50"
+        },
+        {
+          "nombre_producto": "Nutela",
+          "emp": "Grupo Ferrero",
+          "precio": "2"
+        },
+        {
+          "nombre_producto": "Danonino",
+          "emp": "Danone",
+          "precio": "2"
+        },
+        {
+          "nombre_producto": "Actimel",
+          "emp": "Danone",
+          "precio": "1.50"
+        },
+        {
+          "nombre_producto": "Calipo",
+          "emp": "Frigo",
+          "precio": "3"
+        },
+        {
+          "nombre_producto": "Twister",
+          "emp": "Frigo",
+          "precio": "3"
+        }
+      ]
+    },
+    "ofertas": {
+      "oferta": [
+        {
+          "id": "1",
+          "descuento": "0.2",
+          "fecha_ini": "2020-01-13",
+          "fecha_fin": "2020-02-13"
+        },
+        {
+          "id": "2",
+          "descuento": "0.3",
+          "fecha_ini": "2020-01-13",
+          "fecha_fin": "2020-02-15"
+        },
+        {
+          "id": "3",
+          "descuento": "0.2",
+          "fecha_ini": "2020-01-13",
+          "fecha_fin": "2020-02-20"
+        },
+        {
+          "id": "4",
+          "descuento": "0.5",
+          "fecha_ini": "2020-01-13",
+          "fecha_fin": "2020-02-26"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+/*Recuadro*/
+#recuadro {
+    border: solid black 1.1px;
+    background-color: rgb(245, 245, 245);
+    padding: 1px;
+}
+/*Recuadro/*/
+/*Colors*/
+#red {
+    color: rgb(218, 33, 33);
+    padding: 1px;
+    text-align: center;
+}
+/*Colors/*/
+
+p {
+    font-size: x-large;
+}

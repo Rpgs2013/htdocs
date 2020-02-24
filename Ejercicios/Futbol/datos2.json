@@ -1,0 +1,326 @@
+{
+	"liga": {
+		"equipo": [
+			{
+				"nombre_equipo": "Betis",
+				"ciudad": "Sevilla",
+				"seguidores": "32838768",
+				"himno": "https://www.youtube.com/watch?v=tJcA3eKi_XI",
+				"fecha_creacion": "No lo se Hulio",
+				"jugadores": {
+					"jugador": [
+						{
+							"nombre_jugador": "Joaquín",
+							"apellidos": "Sánchez",
+							"edad": "34",
+							"dni": "129716471D",
+							"n_lesiones": "1"
+						},
+						{
+							"nombre_jugador": "Paco",
+							"apellidos": "López López",
+							"edad": "27",
+							"dni": "4378578378O",
+							"n_lesiones": "8"
+						},
+						{
+							"nombre_jugador": "Antonio",
+							"apellidos": "Ramírez",
+							"edad": "22",
+							"dni": "253626T",
+							"n_lesiones": "0"
+						},
+						{
+							"nombre_jugador": "José",
+							"apellidos": "Álvarez",
+							"edad": "25",
+							"dni": "123645645G",
+							"n_lesiones": "3"
+						},
+						{
+							"nombre_jugador": "Fulgencio",
+							"apellidos": "Apellido",
+							"edad": "17",
+							"dni": "573828247H",
+							"n_lesiones": "2"
+						}
+					],
+					"suplentes": {
+						"suplente": [
+							{
+								"nombre_jugador": "Joselito",
+								"apellidos": "Apellido",
+								"edad": "23",
+								"dni": "1742612678B",
+								"n_lesiones": "1"
+							},
+							{
+								"nombre_jugador": "Chupa",
+								"apellidos": "Banquillo",
+								"edad": "23",
+								"dni": "385732798Y",
+								"n_lesiones": "9"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre_equipo": "Málaga",
+				"ciudad": "Málaga",
+				"seguidores": "17374268846",
+				"himno": "https://www.youtube.com/watch?v=8IKXsP6EIxY",
+				"fecha_creacion": "No lo sé",
+				"jugadores": {
+					"jugador": [
+						{
+							"nombre_jugador": "Castolo",
+							"apellidos": "El del PES",
+							"edad": "28",
+							"dni": "38u8372748K",
+							"n_lesiones": "33"
+						},
+						{
+							"nombre_jugador": "Persona",
+							"apellidos": "Para nada Von aleatoria",
+							"edad": "40",
+							"dni": "3429875U",
+							"n_lesiones": "9999999"
+						},
+						{
+							"nombre_jugador": "Persona",
+							"apellidos": "Para nada aleatoria",
+							"edad": "20",
+							"dni": "2478372I",
+							"n_lesiones": "7"
+						},
+						{
+							"nombre_jugador": "Persona",
+							"apellidos": "Para nada aleatoria 2",
+							"edad": "21",
+							"dni": "32442742H",
+							"n_lesiones": "2"
+						},
+						{
+							"nombre_jugador": "Personita",
+							"apellidos": "Random",
+							"edad": "28",
+							"dni": "13249758O",
+							"n_lesiones": "0"
+						}
+					],
+					"suplentes": {
+						"suplente": [
+							{
+								"nombre_jugador": "Suplente 1",
+								"apellidos": "No tiene",
+								"edad": "29",
+								"dni": "3248743L",
+								"n_lesiones": "0"
+							},
+							{
+								"nombre_jugador": "Juan",
+								"apellidos": "Apellido",
+								"edad": "26",
+								"dni": "321474178R",
+								"n_lesiones": "9"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre_equipo": "Equipo",
+				"ciudad": "No lo sé",
+				"seguidores": "12493856",
+				"himno": "Enlace de youtube",
+				"fecha_creacion": "Hace mucho mucho tiempo en un país lejano",
+				"jugadores": {
+					"jugador": [
+						{
+							"nombre_jugador": "Te",
+							"apellidos": "Apellido random",
+							"edad": "2873",
+							"dni": "3284294297427942G",
+							"n_lesiones": "7"
+						},
+						{
+							"nombre_jugador": "Has",
+							"apellidos": "Apellido para nada aleatorio",
+							"edad": "55",
+							"dni": "32849784J",
+							"n_lesiones": "8"
+						},
+						{
+							"nombre_jugador": "Pasado",
+							"apellidos": "Que no futuro",
+							"edad": "39",
+							"dni": "123487F",
+							"n_lesiones": "2"
+						},
+						{
+							"nombre_jugador": "Paquito",
+							"apellidos": "Apellido de paquito",
+							"edad": "19",
+							"dni": "17327848428742J",
+							"n_lesiones": "5"
+						},
+						{
+							"nombre_jugador": "Nombre",
+							"apellidos": "Apellido",
+							"edad": "39",
+							"dni": "34278427842L",
+							"n_lesiones": "2"
+						}
+					],
+					"suplentes": {
+						"suplente": [
+							{
+								"nombre_jugador": "Nombre",
+								"apellidos": "Apellido",
+								"edad": "22",
+								"dni": "394784742U",
+								"n_lesiones": "9"
+							},
+							{
+								"nombre_jugador": "Nombre 4",
+								"apellidos": "Apellido random",
+								"edad": "22",
+								"dni": "1328728Y",
+								"n_lesiones": "3"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre_equipo": "nombre",
+				"ciudad": "cudad",
+				"seguidores": "1253264576",
+				"himno": "Enlace",
+				"fecha_creacion": "No lo sé",
+				"jugadores": {
+					"jugador": [
+						{
+							"nombre_jugador": "Nombre aleatorio",
+							"apellidos": "Apellido para nada aleatorio",
+							"edad": "83",
+							"dni": "1209438757",
+							"n_lesiones": "22"
+						},
+						{
+							"nombre_jugador": "Orco del wow",
+							"apellidos": "Del wow",
+							"edad": "200",
+							"dni": "132493984984P",
+							"n_lesiones": "0"
+						},
+						{
+							"nombre_jugador": "Chuck",
+							"apellidos": "Norris",
+							"edad": "50",
+							"dni": "18249842984J",
+							"n_lesiones": "No se puede lesionar"
+						},
+						{
+							"nombre_jugador": "Chuck Jr",
+							"apellidos": "Norris",
+							"edad": "1",
+							"dni": "2345987H",
+							"n_lesiones": "2"
+						},
+						{
+							"nombre_jugador": "Persona",
+							"apellidos": "Apellido de Persona",
+							"edad": "18",
+							"dni": "21343565B",
+							"n_lesiones": "8"
+						}
+					],
+					"suplentes": {
+						"suplente": [
+							{
+								"nombre_jugador": "Suplente 1",
+								"apellidos": "Apellido",
+								"edad": "20",
+								"dni": "1324385J",
+								"n_lesiones": "2"
+							},
+							{
+								"nombre_jugador": "Suplente 2",
+								"apellidos": "Apellido",
+								"edad": "20",
+								"dni": "3248498I",
+								"n_lesiones": "7"
+							}
+						]
+					}
+				}
+			},
+			{
+				"nombre_equipo": "Equipo 5",
+				"ciudad": "Ciudad 5",
+				"seguidores": "3128247842787842",
+				"himno": "Enlace",
+				"fecha_creacion": "fecha",
+				"jugadores": {
+					"jugador": [
+						{
+							"nombre_jugador": "Nombre 1",
+							"apellidos": "Ap1",
+							"edad": "23",
+							"dni": "324842798H",
+							"n_lesiones": "3"
+						},
+						{
+							"nombre_jugador": "Nombre 2",
+							"apellidos": "Apellido",
+							"edad": "28",
+							"dni": "328429842R",
+							"n_lesiones": "8"
+						},
+						{
+							"nombre_jugador": "Nombre 3",
+							"apellidos": "Apellido",
+							"edad": "38",
+							"dni": "13824827492E",
+							"n_lesiones": "4"
+						},
+						{
+							"nombre_jugador": "Nombre 4",
+							"apellidos": "Apeliido",
+							"edad": "23",
+							"dni": "73487842742U",
+							"n_lesiones": "4"
+						},
+						{
+							"nombre_jugador": "Nombre 5",
+							"apellidos": "Apellido",
+							"edad": "66",
+							"dni": "1324247842Y",
+							"n_lesiones": "3"
+						}
+					],
+					"suplentes": {
+						"suplente": [
+							{
+								"nombre_jugador": "Suplente1",
+								"apellidos": "Apellido",
+								"edad": "38",
+								"dni": "132892498492F",
+								"n_lesiones": "6"
+							},
+							{
+								"nombre_jugador": "Suplente 2",
+								"apellidos": "Apellidos",
+								"edad": "29",
+								"dni": "329832982982X",
+								"n_lesiones": "3"
+							}
+						]
+					}
+				}
+			}
+		]
+	}
+}

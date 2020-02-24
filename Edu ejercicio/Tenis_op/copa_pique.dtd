@@ -1,0 +1,19 @@
+<!DOCTYPE copa_pique[
+<!ELEMENT copa_pique (pais+)>
+<!ELEMENT pais (nombre_pais, continente, longitud, latitud, jugadores)>
+<!ELEMENT nombre_pais (#PCDATA)>
+<!ELEMENT continente (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+
+<!ELEMENT jugadores (jugador+)>
+
+<!ELEMENT jugador (nombre_jugador, edad, dni, peso, n_victorias, ranking_atp)>
+<!ELEMENT nombre_jugador (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT n_victorias (#PCDATA)>
+<!ELEMENT ranking_atp (#PCDATA)>
+
+]>

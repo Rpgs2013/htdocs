@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<dialogos>
+  <dialogo>
+    <id>0</id>
+    <texto> Bienvenido! Escoge tu forma de salta al vacío </texto>
+    <opciones>
+      <opcion>
+        <id_opcion>0</id_opcion>
+        <texto_opcion> Patinete Xiaomi </texto_opcion>
+      </opcion>
+      <opcion>
+        <id_opcion>3</id_opcion>
+        <texto_opcion> Mochila voladora </texto_opcion>
+      </opcion>
+    </opciones>
+  </dialogo>
+
+  <dialogo>
+    <id>3</id>
+    <texto> Me mola la opcion del patinete pero siempre tardan en realizar la entrega. Cuánto quieres esperar??? </texto>
+    <opciones>
+      <opcion>
+        <id_opcion>4</id_opcion>
+        <texto_opcion> 1 día </texto_opcion>
+      </opcion>
+      <opcion>
+        <id_opcion>0</id_opcion>
+        <texto_opcion> No me entero....repite de nuevo </texto_opcion>
+      </opcion>
+    </opciones>
+  </dialogo>
+</dialogos>

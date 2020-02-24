@@ -1,0 +1,129 @@
+<galaxia>
+    <sistema_planetario>
+        <planetas>
+            <planeta>
+                <nombre>Mercurio</nombre>
+                <edad>4503000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas>
+                        <nombre></nombre>
+                        <nombre></nombre>
+                    </nom_lunas>
+                    <num_lunas>2</num_lunas>
+                </lunas>
+            </planeta>
+            <planeta>
+                <nombre>Venus</nombre>
+                <edad>4503000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas>
+                        <nombre></nombre>
+                        <nombre></nombre>
+                        <nombre></nombre>
+                        <nombre></nombre>
+                    </nom_lunas>
+                    <num_lunas>4</num_lunas>
+                </lunas>
+            </planeta>
+            <planeta>
+                <nombre>Tierra</nombre>
+                <edad>4543000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas>
+                        <nombre>Luna</nombre>
+                    </nom_lunas>
+                    <num_lunas>1</num_lunas>
+                </lunas>
+            </planeta>
+            <planeta>
+                <nombre>Marte</nombre>
+                <edad>4603000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas></nom_lunas>
+                    <num_lunas>0</num_lunas>
+                </lunas>
+            </planeta>
+            <planeta>
+                <nombre>Jupiter</nombre>
+                <edad>4503000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas></nom_lunas>
+                    <num_lunas>0</num_lunas>
+                </lunas>
+            </planeta>
+            <planeta>
+                <nombre>Saturno</nombre>
+                <edad>4503000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas></nom_lunas>
+                    <num_lunas>0</num_lunas>
+                </lunas>
+            </planeta>
+        </planetas>
+    </sistema_planetario>
+
+    <sistema_planetario>
+        <planetas>
+            <planeta>
+                <nombre>Kepler-90b</nombre>
+                <edad>4503000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas></nom_lunas>
+                    <num_lunas>0</num_lunas>
+                </lunas>
+            </planeta>
+            <planeta>
+                <nombre>Kepler-90c</nombre>
+                <edad>4503000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas></nom_lunas>
+                    <num_lunas>0</num_lunas>
+                </lunas>
+            </planeta>
+            <planeta>
+                <nombre>Kepler-90i</nombre>
+                <edad>4503000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas></nom_lunas>
+                    <num_lunas>0</num_lunas>
+                </lunas>
+            </planeta>
+            <planeta>
+                <nombre>Kepler-90d</nombre>
+                <edad>4503000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas></nom_lunas>
+                    <num_lunas>0</num_lunas>
+                </lunas>
+            </planeta>
+            <planeta>
+                <nombre>Kepler-90e</nombre>
+                <edad>4503000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas></nom_lunas>
+                    <num_lunas>0</num_lunas>
+                </lunas>
+            </planeta>
+            <planeta>
+                <nombre>Kepler-90f</nombre>
+                <edad>4503000000000</edad>
+                <componenetes_organicos>H20, O2, H</componenetes_organicos>
+                <lunas>
+                    <nom_lunas></nom_lunas>
+                    <num_lunas>0</num_lunas>
+                </lunas>
+            </planeta>
+        </planetas>
+    </sistema_planetario>
+</galaxia>

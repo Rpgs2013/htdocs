@@ -1,0 +1,258 @@
+{
+    "copa_pique": {
+       "pais": [
+          {
+             "nombre_pais": "España",
+             "continente": "Europa",
+             "longitud": "4354",
+             "latitud": "13243",
+             "jugadores": {
+                "jugador": [
+                   {
+                      "nombre_jugador": "Rafael Nadal",
+                      "edad": "34",
+                      "dni": "13243546G",
+                      "peso": "76 kg",
+                      "n_victorias": "2435",
+                      "ranking_atp": "2"
+                   },
+                   {
+                      "nombre_jugador": "Perico el de los palotes",
+                      "edad": "23",
+                      "dni": "3245465U",
+                      "peso": "63 kg",
+                      "n_victorias": "12",
+                      "ranking_atp": "43587"
+                   },
+                   {
+                      "nombre_jugador": "Antonio Lóepz",
+                      "edad": "21",
+                      "dni": "324546435I",
+                      "peso": "77 kg",
+                      "n_victorias": "1234",
+                      "ranking_atp": "4567"
+                   },
+                   {
+                      "nombre_jugador": "Anónimo",
+                      "edad": "41",
+                      "dni": "213456T",
+                      "peso": "67 kg",
+                      "n_victorias": "9000",
+                      "ranking_atp": "1"
+                   }
+                ]
+             }
+          },
+          {
+             "nombre_pais": "Alemania",
+             "continente": "Europa",
+             "longitud": "2434",
+             "latitud": "32453",
+             "jugadores": {
+                "jugador": [
+                   {
+                      "nombre_jugador": "Jugador 1",
+                      "edad": "32",
+                      "dni": "23243546Y",
+                      "peso": "78 kg",
+                      "n_victorias": "1123",
+                      "ranking_atp": "245"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 2",
+                      "edad": "25",
+                      "dni": "323546H",
+                      "peso": "67 kg",
+                      "n_victorias": "132",
+                      "ranking_atp": "3008"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 3",
+                      "edad": "30",
+                      "dni": "32435465R",
+                      "peso": "70 kg",
+                      "n_victorias": "322",
+                      "ranking_atp": "456"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 4",
+                      "edad": "32",
+                      "dni": "324354657B",
+                      "peso": "58 kg",
+                      "n_victorias": "200",
+                      "ranking_atp": "4005"
+                   }
+                ]
+             }
+          },
+          {
+             "nombre_pais": "Francia",
+             "continente": "Europa",
+             "longitud": "32453",
+             "latitud": "4253",
+             "jugadores": {
+                "jugador": [
+                   {
+                      "nombre_jugador": "Jugador 1",
+                      "edad": "33",
+                      "dni": "23243446Y",
+                      "peso": "71 kg",
+                      "n_victorias": "1120",
+                      "ranking_atp": "247"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 2",
+                      "edad": "28",
+                      "dni": "343553F",
+                      "peso": "55 kg",
+                      "n_victorias": "2223",
+                      "ranking_atp": "14"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 3",
+                      "edad": "18",
+                      "dni": "3243546N",
+                      "peso": "66 kg",
+                      "n_victorias": "109",
+                      "ranking_atp": "370"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 4",
+                      "edad": "20",
+                      "dni": "324356D",
+                      "peso": "61 kg",
+                      "n_victorias": "348",
+                      "ranking_atp": "454"
+                   }
+                ]
+             }
+          },
+          {
+             "nombre_pais": "Inglaterra",
+             "continente": "Europa",
+             "longitud": "2142",
+             "latitud": "134253",
+             "jugadores": {
+                "jugador": [
+                   {
+                      "nombre_jugador": "Jugador 1",
+                      "edad": "24",
+                      "dni": "3425346M",
+                      "peso": "58 kg",
+                      "n_victorias": "370",
+                      "ranking_atp": "2000"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 2",
+                      "edad": "30",
+                      "dni": "3245646I",
+                      "peso": "62 kg",
+                      "n_victorias": "158",
+                      "ranking_atp": "3088"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 3",
+                      "edad": "25",
+                      "dni": "132453U",
+                      "peso": "75 kg",
+                      "n_victorias": "234",
+                      "ranking_atp": "4789"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 4",
+                      "edad": "32",
+                      "dni": "3243546A",
+                      "peso": "58 kg",
+                      "n_victorias": "586",
+                      "ranking_atp": "189"
+                   }
+                ]
+             }
+          },
+          {
+             "nombre_pais": "EEUU",
+             "continente": "América",
+             "longitud": "123453",
+             "latitud": "1324536",
+             "jugadores": {
+                "jugador": [
+                   {
+                      "nombre_jugador": "Jugador 1",
+                      "edad": "27",
+                      "dni": "13245364V",
+                      "peso": "67 kg",
+                      "n_victorias": "465",
+                      "ranking_atp": "257"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 2",
+                      "edad": "22",
+                      "dni": "324354C",
+                      "peso": "60 kg",
+                      "n_victorias": "378",
+                      "ranking_atp": "1035"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 3",
+                      "edad": "28",
+                      "dni": "2324354J",
+                      "peso": "70 kg",
+                      "n_victorias": "466",
+                      "ranking_atp": "754"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 4",
+                      "edad": "23",
+                      "dni": "1324354R",
+                      "peso": "64 kg",
+                      "n_victorias": "367",
+                      "ranking_atp": "976"
+                   }
+                ]
+             }
+          },
+          {
+             "nombre_pais": "China",
+             "continente": "Asia",
+             "longitud": "23425",
+             "latitud": "245546",
+             "jugadores": {
+                "jugador": [
+                   {
+                      "nombre_jugador": "Jugador 1",
+                      "edad": "24",
+                      "dni": "3243546K",
+                      "peso": "57 kg",
+                      "n_victorias": "243",
+                      "ranking_atp": "2008"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 2",
+                      "edad": "27",
+                      "dni": "243546J",
+                      "peso": "58 kg",
+                      "n_victorias": "324",
+                      "ranking_atp": "887"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 3",
+                      "edad": "21",
+                      "dni": "3425346X",
+                      "peso": "64 kg",
+                      "n_victorias": "323",
+                      "ranking_atp": "890"
+                   },
+                   {
+                      "nombre_jugador": "Jugador 4",
+                      "edad": "20",
+                      "dni": "2134354E",
+                      "peso": "70 kg",
+                      "n_victorias": "564",
+                      "ranking_atp": "579"
+                   }
+                ]
+             }
+          }
+       ]
+    }
+ }

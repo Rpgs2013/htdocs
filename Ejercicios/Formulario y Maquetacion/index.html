@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Maquetación</title>
+	<link rel="stylesheet" href="function.php">
+	<link rel="stylesheet" href="Reset css/reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<!--Ejercicio de clase -->
+	<!--Realizar una web donde tengamos una estructura
+		maquetada de HTML 5 y CSS con las secciones de: 
+		.- Header 
+		.- Nav 
+		.- Section para la parte principal 
+		.- Aside que quedará a la izquierda 
+		.- Footer 
+
+		Necesito una barra de navegación con los siguientes puntos: 
+		.- Duplicados: Un formulario con un campo de texto y cuando envío dicho formulario, me debe de desaparecer las letras repetidas ( "Hoolla") => Hola 
+		.- Unión: Formulario donde tengo dos campos de texto y cuando envío me debe de aparecer los dos textos unidos (3 arrays) 1 para la primera palabra, otro para la segunda palabra y un tercero para la unión de los dos 
+		.- Asociativo: Formulario donde inserte Nombre, apellidos, edad , correo y clave para un usuario. Enviar el formulario y que guarde los datos en un array asociativo con las claves anteriores. -->
+	<!--Ejercicio de clase/-->
+
+
+	<div id="container">
+		<header>
+			<h1>Buenas soy un Header</h1>
+		</header>
+		
+		<nav id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="#">About</a>
+		  <a href="#">Services</a>
+		  <a href="#">Clients</a>
+		  <a href="#">Contact</a>
+		</nav>
+
+		<div id="main">
+		  <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; open</span>
+		</div>
+
+		<script>
+			function openNav() {
+			  document.getElementById("mySidenav").style.width = "250px";
+			}
+
+			function closeNav() {
+			  document.getElementById("mySidenav").style.width = "0";
+			}
+		</script>
+
+		<section id="main2">
+			<aside>
+				
+			</aside>
+			<article>
+				<form action="function.php" method="Post">
+		        <label class="nombres" for="user">Usuario</label><br>
+		        <input class="imputs" type="text" id="user" name="user" placeholder="Usuario"><br>
+		        <input type="submit" class="button">
+		        <br>
+				</form>				
+			</article>
+		</section>
+		<footer>
+			<p><small></small></p>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Personas View</title>
+</head>
+<body>
+    <div class="row justify-content-center">
+        <form action="" method="POST">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="name" class="form-control" value="Enter your name">
+            </div>
+            <div class="form-group">
+                <label>Location</label>
+                <input type="text" name="location" class="form-control" value="Enter location">
+            </div>
+            <div class="form-group">
+                <input type="submit" name="save" class="btn btn-primary" value="Save">    
+            </div> 
+        </form>
+    </div>
+    <?php
+        foreach ($datos as $dato) {
+            echo ($dato ["nombre"]."<br/>");
+        }
+    ?>
+</body>
+</html>

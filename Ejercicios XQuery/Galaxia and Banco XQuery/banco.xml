@@ -1,0 +1,21 @@
+
+<cliente>
+    <dni>337635856j</dni>
+    <nombre>paco</nombre>
+    <ap1>perez</ap1>
+    <ap2>perez</ap2>
+    <cuentas_bancarias>
+        <cuenta_bancaria>
+            <fecha_creacion>1-1-91</fecha_creacion>
+            <numero>123456789</numero>
+            <saldo>7050</saldo>
+        </cuenta_bancaria>
+
+        <cuenta_bancaria>
+            <fecha_creacion></fecha_creacion>
+            <numero></numero>
+            <saldo></saldo>
+        </cuenta_bancaria>
+    </cuentas_bancarias>
+</cliente>
+

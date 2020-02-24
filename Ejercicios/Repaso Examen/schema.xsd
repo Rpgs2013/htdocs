@@ -1,0 +1,36 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="torneo">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="equipos">
+				<xs:element name="seleciones">
+					<xs:element name="pais" maxOccurs="6">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="nombre" type="xs:string"></xs:element>
+								<xs:element name="continente" type="xs:string"></xs:element>
+								<xs:element name="latitud" type="xs:string"></xs:element>
+								<xs:element name="numero_jugador" type="xs:int"></xs:element>
+								<xs:element name="jugadores">
+									<xs:element name="jugador" maxOccurs="4">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="nombre_jugador" type="xs:string"></xs:element>
+												<xs:element name="edad" type="xs:int"></xs:element>
+												<xs:element name="dni" type="xs:string"></xs:element>
+												<xs:element name="peso" type="xs:int"></xs:element>
+												<xs:element name="numero_vic" type="xs:int"></xs:element>
+												<xs:element name="ranking_ATP" type="xs:int"></xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+								</xs:element>
+							</xs:sequence>	
+						</xs:complexType>
+					</xs:element>
+				</xs:element>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>

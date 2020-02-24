@@ -1,0 +1,86 @@
+a {
+  color: #2B2B2B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6A1111;
+  text-decoration: none;
+}
+
+.navbar {
+    color: #2B2B2B;
+    font-size: 250%;
+}
+
+.navbar:hover {
+    color: #6A1111;
+}
+
+/* Slider */
+.carousel-inner img {
+    margin-top: 5%;
+    width: 20%;
+    max-height: 600px;
+}
+
+.carousel-inner img {
+    margin-top: 5%;
+    width: 100%;
+    max-height: 600px;
+}
+
+.carousel-inner {
+ height: 900px;
+}
+
+.carousel {
+  margin-top: 5%;
+
+}
+
+/*.carousel.slide {
+    width: 100%; 
+    max-width: 400px;
+}*/
+
+.carousel-indicators {
+  margin-bottom: 16%;
+}
+
+.carousel-control-prev {
+  margin-bottom: 10%;
+}
+
+.carousel-control-next {
+  margin-bottom: 10%;
+}
+
+iframe {
+  margin-top: 16%;
+}
+
+#equipo {
+  margin-top: 5%;
+}
+
+.img-thumbnail {
+  background: #2B2A2A !important;
+}
+
+.shadow {
+  border: 7px solid;
+  border-radius: 10px;
+  opacity: 0.9;
+  -webkit-box-shadow: 22px 25px 27px 10px rgba(0,0,0,0.73) !important;
+  -moz-box-shadow: 22px 25px 27px 10px rgba(0,0,0,0.73) !important;
+  box-shadow: 22px 25px 27px 10px rgba(0,0,0,0.73) !important;
+}
+
+/*.shadow2 {
+  opacity: 0.9;
+  -webkit-box-shadow: 22px 25px 27px 10px rgba(0,0,0,0.73) !important;
+  -moz-box-shadow: 22px 25px 27px 10px rgba(0,0,0,0.73) !important;
+  box-shadow: 22px 25px 27px 10px rgba(0,0,0,0.73) !important;
+  width: calc(100% - 55%);
+}*/

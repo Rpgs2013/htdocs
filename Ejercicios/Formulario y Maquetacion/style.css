@@ -1,0 +1,211 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-image: url("images/Carretera_dorada.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#container {
+	width:1024px;
+	height:768px;
+	margin:0 auto;
+	background-color:#f7a12e;
+	overflow: auto;
+	margin-top: 1%;
+	
+}
+
+header {
+	width:70%;
+	height:10%;
+	background-color:#f98427;
+	margin: 2% auto;
+	border-radius:15px;
+}
+
+footer {
+	width:70%;
+	height:10%;
+	background-color:#fb581d;
+	margin: 2% auto;
+	border-radius:15px;
+	bottom:0;
+}
+
+#main {
+	width:70%;
+	height:7%;
+	background-color:#f8992c;
+	margin: 2% auto;
+	border-radius:15px;
+}
+
+#main2 {
+	width: 70%;
+	height:70%;
+	margin: 2% auto;
+	border-radius:25px;
+}
+
+aside {
+	width:20%;
+	height:100%;
+	background-color:#fa6e22;
+	float:left;
+	border-radius:15px;
+	margin-right:1%;
+}
+
+article {
+	width:78%;
+	height:100%;
+	background-color:#f88b29;	
+	float:left;
+	border-radius:15px;
+	margin-left:1%;
+}
+
+article form {
+	text-align: center;
+	margin-top: 5%;
+}
+
+input {
+	margin-top: 2.5%;
+}
+
+/*Info nueva*/
+h1 {
+	text-align: center;
+}
+/*Info nueva/*/
+
+/*Nav*/
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fac66b;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*Nav/*/
+
+/*Form*/
+.nombres {
+
+}
+/*Form/*/
+
+/*Button*/
+.button {
+  font-family: Arial;
+  color: #ededed;
+  font-size: 13px;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  text-shadow: 2px 0px 2px #737373;
+  border: solid #e6ae20 1px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#fac83f), to(#fa6f05));
+  background: -moz-linear-gradient(top, #fac83f, #fa6f05);
+}
+.button:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffbb00), to(#ff0000));
+  background: -moz-linear-gradient(top, #ffbb00, #ff0000)
+}
+/*Button/*/
+
+/*Scroll bar*/
+#container::-webkit-scrollbar {
+    width: 9px;     /* Tamaño del scroll en vertical */
+    height: 9px;    /* Tamaño del scroll en horizontal */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del
+thumb */
+#container::-webkit-scrollbar-thumb {
+    background: #fa6720;
+    border-radius: 5px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+#container::-webkit-scrollbar-thumb:hover {
+    background: #2D2D2D;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* cambiamos el fondo del track */
+#container::-webkit-scrollbar-track {
+  background-color:#FFA64D;
+}
+ /*Scroll bar/*/
+
+ /*Scroll bar errase*/
+body::-webkit-scrollbar {
+    width: 0;     /* Tamaño del scroll en vertical */
+    height: 0;    /* Tamaño del scroll en horizontal */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del
+thumb */
+body::-webkit-scrollbar-thumb {
+    background: #565656;
+    border-radius: 5px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #2D2D2D;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* cambiamos el fondo del track */
+body::-webkit-scrollbar-track {
+  background-color:#B5B5B5;
+}
+ /*Scroll bar errase/*/

@@ -1,0 +1,80 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="copa_pique">
+        <xs:complexType>
+        
+            <xs:sequence>
+            
+                <xs:element name="pais" maxOccurs="6">
+                
+                    <xs:complexType>
+                    
+                        <xs:sequence>
+                        
+                            <xs:element name="nombre_pais" type="xs:string"/>
+                            <xs:element name="continente" type="xs:string"/>
+                            <xs:element name="longitud" type="xs:integer"/>
+                            <xs:element name="latitud" type="xs:integer"/>
+                        
+                            <xs:element name="jugadores">
+
+                                <xs:complexType>
+                                
+                                    <xs:sequence>
+                                    
+                                        <xs:element name="jugador" maxOccurs="4">
+                                        
+                                            <xs:complexType>
+                                            
+                                                <xs:sequence>
+                                                
+                                                    <xs:element name="nombre_jugador" type="xs:string"/>
+                                                    <xs:element name="edad" type="xs:integer"/>
+                                                    <xs:element name="dni" type="xs:string"/>
+                                                    <xs:element name="peso" type="xs:string"/>
+                                                    <xs:element name="n_victorias" type="xs:integer"/>
+                                                    <xs:element name="ranking_atp" type="xs:integer"/>
+                                                
+                                                </xs:sequence>
+
+
+
+                                            </xs:complexType>
+
+                                        
+                                        </xs:element>
+
+                                    
+                                    </xs:sequence>
+
+                                
+                                </xs:complexType>
+
+                            
+                            
+                            </xs:element>
+
+                        
+                        </xs:sequence>
+                    
+                    
+                    
+                    </xs:complexType>    
+                
+                
+                
+                </xs:element>
+            
+            </xs:sequence>
+        
+        
+        </xs:complexType>
+    
+    
+    
+    </xs:element>
+
+
+
+
+</xs:schema> 
