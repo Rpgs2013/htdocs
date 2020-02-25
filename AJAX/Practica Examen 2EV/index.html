@@ -4,17 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica examen</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <script src="script.js"></script>
 </head>
-<body>
-    <form action="">
-        <label>Nombre</label>
-        <input type="text" name="" id="nombre" placeholder="Nombre...">
+<body style="text-align: center;">
+    <div class="container p-4">
+        <h1>Formulario Bonico</h1><br>
+        <div class="row">
+            <div class="col-md-5 center-block">
+                <div class="card">
+                    <div class="card-body">
+                        <form class="task-form was-validated">
+                            <div class="form-group">
+                                <label class="label">Nombre</label><br>
+                                <input type="text" class="form-control" name="" id="nombre" placeholder="Nombre..." required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div><br><br>
 
-        <label>Edad</label>
-        <input type="text" name="" id="edad" placeholder="Edad...">
+                                <label>Edad</label><br>
+                                <input type="text" class="form-control" name="" id="edad" placeholder="Edad..." required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div><br><br>
 
-        <input type="button" value="Guardar" id="btnGuardar">
-        <input type="button" value="">
-    </form>
+                                <input type="button" value="Guardar" id="btnGuardar" class="btn btn-primary"><br><br>
+                                <input type="button" value="Recuperar" id="" class="btn btn-info"><br><br>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

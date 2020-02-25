@@ -35,9 +35,12 @@
                                 <div id="recuadro">
                                     <small><strong><span id="red">Introduce una contraseña que contenga una mayuscula, números y que tenga al menos 8 caracteres.</span></strong></small>
                                 </div><br>
+                                <label data-toggle="tooltip" data-placement="top" title="Introduzca el nombre de la tare">Introduce el nombre de su tarea: </label>
+                                <input type="text" id='name_textarea' placeholder="Nombre Tarea..." class="form-control" required><br>
                             </div>
                             <div class="form-group">
-                                <textarea name="textarea" id="textarea" cols="30" rows="10" class="form-control" placeholder="Task Description..." data-toggle="tooltip" data-placement="top" title="Introduzca sus datos"></textarea>
+                                <label data-toggle="tooltip" data-placement="top" title="Introduzca el nombre de la tare">Introduce la descripcion de su tarea: </label>
+                                <textarea name="textarea" id="textarea" cols="30" rows="10" class="form-control" placeholder="Descripcion de su Tarea..." data-toggle="tooltip" data-placement="top" title="Introduzca sus datos"></textarea>
                             </div>
                             <select class="browser-default custom-select" data-toggle="tooltip" data-placement="top" title="Introduzca su pais de origen">
                                 <option value="España" required>España</option>
@@ -61,8 +64,8 @@
                     <thead>
                         <tr style="text-align: center;">
                             <td>Id</td>
-                            <td>Name</td>
-                            <td>Description</td>
+                            <td>Nombre</td>
+                            <td>Descripcion</td>
                         </tr>
                     </thead>
                     <tbody id="task"></tbody>
@@ -72,6 +75,7 @@
         </div>
             <strong><p style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id='result'></p></strong>
             <strong><p style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id='result2'></p></strong>
+            <strong><p style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id='result3'></p></strong>
             <strong><p style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id='result4'></p></strong>
         </body>
     <script src="script.js"></script>
