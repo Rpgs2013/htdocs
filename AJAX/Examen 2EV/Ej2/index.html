@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container p-4">
+        <h1>Comida</h1><br>
+        <div class="row">
+            <div class="col-md-5 center-block">
+                <div class="card">
+                    <div class="card-body">
+                        <form class="task-form was-validated">
+                            <div class="form-group">
+                                <label data-toggle="tooltip" data-placement="top" title="Introduzca el nombre de la receta">Introduzca el nombre de la receta: </label><br>
+                                <input type="text" id='nombre' placeholder="Nombre Receta..." class="form-control" required><br><br>
+
+                                <label data-toggle="tooltip" data-placement="top" title="Introduzca la duración de la receta">Introduce la duración de la receta: </label><br>
+                                <input type="text" id='duracion' placeholder="Duracion..." class="form-control" required><br><br>
+
+                                <label data-toggle="tooltip" data-placement="top" title="Introduzca el codigo de su receta">Introduce el codigo de su receta: </label><br>
+                                <input type="text" id='codigo' placeholder="Codigo..." class="form-control" required><br><br>
+
+                                <label data-toggle="tooltip" data-placement="top" title="Introduzca el tipo de receta">Introduce el tipo de receta: </label><br>
+                                <input type="text" id='tipo' placeholder="Tipo de Receta..." class="form-control" required><br><br>
+                                <div class="invalid-feedback">Please fill out this field.</div><br><br>
+
+                                <div id="datos"></div>
+                                <br><br>
+                                <input class="btn btn-dark" type="button" id="btnGuardar" value="Guardar"/>
+                                <input class="btn btn-info" type="button" id="btnRecuperar" value="Recuperar">
+                                <input class="btn btn-success" type="submit" id="btnPintar" value="Pintar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -16,8 +16,8 @@ function guardar() {
     let expRegEdad = /^([1-9][89]|[2-9][0-9])$/;
     if(!validar(expRegEdad, edadForm)) {
         alert("El edad es incorrecto");
-        nombreForm.value = "";
-        nombreForm.focus();
+        edadForm.value = "";
+        edadForm.focus();
         return false;
     }
 
