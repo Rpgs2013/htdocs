@@ -73,7 +73,7 @@ function validatePass(pass) {
       let n_area = $("#name_textarea").val();
       $result.text("");
 
-      if (validateArea(n_area)) {
+      if (validateNombreArea(n_area)) {
         $result.text("Your name of text area caracters are valid :)");
         $result.css("color", "orange");
       } else {
