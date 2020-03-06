@@ -1,4 +1,4 @@
-TODOs
+﻿TODOs
 
 - Creating products and configuration site functionality for fully functional e-comerce site:
 1.- Creating features.
@@ -35,4 +35,6 @@ TODOs
 
 3.- About Page:
 
+
+4.- Bibliografía:
 

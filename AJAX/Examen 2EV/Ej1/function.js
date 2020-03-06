@@ -26,7 +26,7 @@ function lista(miObjetoDatos) {
 
     var json = JSON.parse(JSON.stringify(miObjetoDatos));
 
-    json.Recetas.forEach((nombre, i) => {
+    json.Recetas.forEach((nombre) => {
 
         var ul = document.createElement("ul");
         var li = document.createElement("li");

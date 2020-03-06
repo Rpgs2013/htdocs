@@ -1,4 +1,4 @@
-window.onload=function(){
+window.onload = function(){
     document.getElementById("btnGuardar").onclick = guardar;
     document.getElementById("btnPintar").onclick = pintar;
     document.getElementById("btnRecuperar").onclick = recuperar;
@@ -7,13 +7,14 @@ window.onload=function(){
 
 function guardar() {
     var nombreForm = document.getElementById("nombre");
-    var expRegNombre =/^[A-Z][a-z]{3,25}$/;
+    var expRegNombre =/^[A-ZÑ-a-zñ\s]{3,25}$/;
     if(!validar(expRegNombre, nombreForm)){
         alert("El nombre es invalido");
         nombreForm.value ="";
         nombreForm.focus();
         return false;
     }
+
     var duracionForm = document.getElementById("duracion");
     var expRegDuracion =/^(6[0-0]|[1-5][0-9]|[6-9])$/;
     if(!validar(expRegDuracion, duracionForm)){
@@ -24,7 +25,7 @@ function guardar() {
     }
 
     var codForm = document.getElementById("codigo");
-    var expRegCod =/^[C]-[7,9][0-9][0-9][0-9][0-9]$/;
+    var expRegCod =/^[C]-[79][0-9][0-9][0-9][0-9]$/;
     if(!validar(expRegCod, codForm)){
         alert("El codigo es invalido");
         nombreForm.value ="";
